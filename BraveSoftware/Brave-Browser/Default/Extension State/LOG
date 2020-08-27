@@ -19,3 +19,6 @@
 2020/08/27-14:08:48.143 bfa Level-0 table #80: started
 2020/08/27-14:08:48.171 bfa Level-0 table #80: 2148488 bytes OK
 2020/08/27-14:08:48.176 bfa Delete type=0 #76
+2020/08/27-14:16:56.146 bfa Level-0 table #82: started
+2020/08/27-14:16:56.189 bfa Level-0 table #82: 2148484 bytes OK
+2020/08/27-14:16:56.194 bfa Delete type=0 #79
