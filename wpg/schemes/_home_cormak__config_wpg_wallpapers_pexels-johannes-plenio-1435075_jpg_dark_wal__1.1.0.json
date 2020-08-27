@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cormak/.config/wpg/wallpapers/pexels-johannes-plenio-1435075.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#060B15",
+        "foreground": "#ffffd3",
+        "cursor": "#ffffd3"
+    },
+    "colors": {
+        "color0": "#060B15",
+        "color1": "#DA6A12",
+        "color2": "#9A6F50",
+        "color3": "#FCCD29",
+        "color4": "#A05527",
+        "color5": "#B1885F",
+        "color6": "#F09724",
+        "color7": "#e8c7a4",
+        "color8": "#101e3d",
+        "color9": "#ff8707",
+        "color10": "#d78d58",
+        "color11": "#ffff22",
+        "color12": "#dd6b25",
+        "color13": "#f7b069",
+        "color14": "#ffc61c",
+        "color15": "#ffffd3"
+    }
+}

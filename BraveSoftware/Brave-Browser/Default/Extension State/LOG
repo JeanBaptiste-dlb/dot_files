@@ -1,0 +1,21 @@
+2020/08/27-13:49:57.240 aab Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2020/08/27-13:49:57.240 aab Recovering log #71
+2020/08/27-13:49:57.249 aab Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Extension State/000071.log 
+2020/08/27-13:52:32.147 bfa Level-0 table #75: started
+2020/08/27-13:52:32.186 bfa Level-0 table #75: 2153636 bytes OK
+2020/08/27-13:52:32.194 bfa Delete type=0 #71
+2020/08/27-14:00:40.144 bfa Level-0 table #77: started
+2020/08/27-14:00:40.183 bfa Level-0 table #77: 2148484 bytes OK
+2020/08/27-14:00:40.187 bfa Delete type=0 #74
+2020/08/27-14:00:40.188 bfa Compacting 4@0 + 1@1 files
+2020/08/27-14:00:40.220 bfa Generated table #78@0: 3 keys, 14333 bytes
+2020/08/27-14:00:40.220 bfa Compacted 4@0 + 1@1 files => 14333 bytes
+2020/08/27-14:00:40.222 bfa compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/27-14:00:40.223 bfa Delete type=2 #77
+2020/08/27-14:00:40.223 bfa Delete type=2 #69
+2020/08/27-14:00:40.223 bfa Delete type=2 #72
+2020/08/27-14:00:40.223 bfa Delete type=2 #67
+2020/08/27-14:00:40.223 bfa Delete type=2 #75
+2020/08/27-14:08:48.143 bfa Level-0 table #80: started
+2020/08/27-14:08:48.171 bfa Level-0 table #80: 2148488 bytes OK
+2020/08/27-14:08:48.176 bfa Delete type=0 #76

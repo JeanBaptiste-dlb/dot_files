@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/cormak/.config/wpg/wallpapers/stretched-1920-1080-992042.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#0b0b08",
+        "foreground": "#fffff9",
+        "cursor": "#fffff9"
+    },
+    "colors": {
+        "color0": "#0b0b08",
+        "color1": "#897370",
+        "color2": "#738954",
+        "color3": "#a4c37b",
+        "color4": "#8c9c6f",
+        "color5": "#a29f9b",
+        "color6": "#7b8688",
+        "color7": "#d7d8cf",
+        "color8": "#28281c",
+        "color9": "#c28981",
+        "color10": "#97c05e",
+        "color11": "#d8ff8b",
+        "color12": "#badc7e",
+        "color13": "#e7d1b4",
+        "color14": "#8fb9c1",
+        "color15": "#fffff9"
+    }
+}

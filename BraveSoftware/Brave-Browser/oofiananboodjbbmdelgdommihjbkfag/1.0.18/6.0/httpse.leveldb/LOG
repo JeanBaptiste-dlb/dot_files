@@ -1,0 +1,7 @@
+2020/08/27-13:49:56.069 aab Recovering log #3
+2020/08/27-13:49:56.306 aab Level-0 table #5: started
+2020/08/27-13:49:56.443 aab Level-0 table #5: 2853472 bytes OK
+2020/08/27-13:49:56.453 aab Recovering log #25
+2020/08/27-13:49:56.460 aab Delete type=3 #2
+2020/08/27-13:49:56.460 aab Delete type=0 #25
+2020/08/27-13:49:56.460 aab Delete type=0 #3
