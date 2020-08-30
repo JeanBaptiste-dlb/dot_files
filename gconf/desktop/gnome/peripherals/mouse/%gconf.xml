@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="cursor" mtime="1598535969" type="string">
+	<entry name="cursor" mtime="1598824386" type="string">
 		<stringvalue>Maia-Cursor</stringvalue>
 	</entry>
 </gconf>

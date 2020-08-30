@@ -74,8 +74,7 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -147,8 +146,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -553,8 +551,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1421,10 +1418,10 @@
             "backupPath": "/home/cormak/.config/Code - OSS/Backups/1598493628685",
             "uiState": {
                 "mode": 1,
-                "x": 968,
-                "y": 13,
-                "width": 939,
-                "height": 1030
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1056
             }
         },
         "openedWindows": []

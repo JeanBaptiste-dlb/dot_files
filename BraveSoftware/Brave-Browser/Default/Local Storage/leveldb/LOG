@@ -1,3 +1,15 @@
-2020/08/27-13:49:55.878 a99 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/08/27-13:49:55.878 a99 Recovering log #23
-2020/08/27-13:49:55.878 a99 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000023.log 
+2020/08/30-21:54:15.218 696 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/08/30-21:54:15.219 696 Recovering log #29
+2020/08/30-21:54:15.219 696 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000029.log 
+2020/08/30-22:47:33.025 3c44 Level-0 table #33: started
+2020/08/30-22:47:33.030 3c44 Level-0 table #33: 13334 bytes OK
+2020/08/30-22:47:33.034 3c44 Delete type=0 #29
+2020/08/30-22:47:33.034 3c44 Compacting 4@0 + 1@1 files
+2020/08/30-22:47:33.040 3c44 Generated table #34@0: 143 keys, 71522 bytes
+2020/08/30-22:47:33.040 3c44 Compacted 4@0 + 1@1 files => 71522 bytes
+2020/08/30-22:47:33.042 3c44 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/30-22:47:33.043 3c44 Delete type=2 #27
+2020/08/30-22:47:33.043 3c44 Delete type=2 #33
+2020/08/30-22:47:33.043 3c44 Delete type=2 #21
+2020/08/30-22:47:33.043 3c44 Delete type=2 #30
+2020/08/30-22:47:33.043 3c44 Delete type=2 #24

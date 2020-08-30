@@ -1,0 +1,40 @@
+{
+   "checksum": "59bacc5957c1d4c4ec2550dc2e201717",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13243011995058367",
+            "guid": "d6265dcb-e2b3-4f0b-b0f9-5fb8804e43c1",
+            "id": "5",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         } ],
+         "date_added": "13243009795867870",
+         "date_modified": "13243011995058367",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Favoris",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13243009795867875",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Autres favoris",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13243009795867877",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Favoris sur mobile",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

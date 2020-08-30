@@ -1,0 +1,5 @@
+2020/08/30-22:09:32.649 2f13 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.techjunkie.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/30-22:10:04.953 3032 Level-0 table #5: started
+2020/08/30-22:10:04.957 3032 Level-0 table #5: 1369 bytes OK
+2020/08/30-22:10:04.960 3032 Delete type=0 #3
+2020/08/30-22:10:04.960 3032 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
