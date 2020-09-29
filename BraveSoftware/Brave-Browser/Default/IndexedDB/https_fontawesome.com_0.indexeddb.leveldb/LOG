@@ -1,0 +1,15 @@
+2020/09/21-15:57:59.159 92b Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-15:57:59.159 92b Recovering log #4
+2020/09/21-15:57:59.159 92b Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000004.log 
+2020/09/21-15:58:05.180 b19 Level-0 table #8: started
+2020/09/21-15:58:05.184 b19 Level-0 table #8: 1686 bytes OK
+2020/09/21-15:58:05.187 b19 Delete type=0 #4
+2020/09/21-15:58:05.187 b19 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/21-15:58:05.187 b19 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 175 : 1
+2020/09/21-15:58:05.187 b19 Compacting 1@1 + 1@2 files
+2020/09/21-15:58:05.188 b19 Generated table #9@1: 52 keys, 1164 bytes
+2020/09/21-15:58:05.188 b19 Compacted 1@1 + 1@2 files => 1164 bytes
+2020/09/21-15:58:05.190 b19 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/21-15:58:05.190 b19 Delete type=2 #5
+2020/09/21-15:58:05.190 b19 Delete type=2 #8
+2020/09/21-15:58:05.191 b19 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 175 : 1 .. (end); will stop at (end)

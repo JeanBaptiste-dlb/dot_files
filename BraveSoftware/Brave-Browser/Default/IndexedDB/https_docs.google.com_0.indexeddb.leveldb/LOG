@@ -1,0 +1,15 @@
+2020/09/29-15:53:32.870 a4a5 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/29-15:53:32.870 a4a5 Recovering log #21
+2020/09/29-15:53:32.872 a4a5 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000021.log 
+2020/09/29-16:43:57.134 abe0 Level-0 table #25: started
+2020/09/29-16:43:57.142 abe0 Level-0 table #25: 407762 bytes OK
+2020/09/29-16:43:57.146 abe0 Delete type=0 #21
+2020/09/29-16:43:57.146 abe0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/29-16:43:57.147 abe0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x03\x03\x01'\x00c\x00d\x000\x003\x009\x00c\x003\x005\x004\x00e\x00b\x006\x009\x00f\x009\x003\x004\x009\x006\x00a\x006\x00e\x00a\x000\x001\x00e\x001\x002\x00d\x00f\x001\x002\x00_\x003\x00_\x001\x00:\x000\x000' @ 961 : 1
+2020/09/29-16:43:57.147 abe0 Compacting 1@1 + 1@2 files
+2020/09/29-16:43:57.151 abe0 Generated table #26@1: 272 keys, 61527 bytes
+2020/09/29-16:43:57.151 abe0 Compacted 1@1 + 1@2 files => 61527 bytes
+2020/09/29-16:43:57.154 abe0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/29-16:43:57.154 abe0 Delete type=2 #25
+2020/09/29-16:43:57.154 abe0 Delete type=2 #16
+2020/09/29-16:43:57.155 abe0 Manual compaction at level-1 from '\x00\x03\x03\x03\x01'\x00c\x00d\x000\x003\x009\x00c\x003\x005\x004\x00e\x00b\x006\x009\x00f\x009\x003\x004\x009\x006\x00a\x006\x00e\x00a\x000\x001\x00e\x001\x002\x00d\x00f\x001\x002\x00_\x003\x00_\x001\x00:\x000\x000' @ 961 : 1 .. (end); will stop at (end)

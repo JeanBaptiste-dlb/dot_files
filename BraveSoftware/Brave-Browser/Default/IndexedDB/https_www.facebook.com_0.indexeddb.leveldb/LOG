@@ -1,5 +1,15 @@
-2020/08/27-02:20:08.686 40e7 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/27-02:20:40.708 4155 Level-0 table #5: started
-2020/08/27-02:20:40.712 4155 Level-0 table #5: 1233 bytes OK
-2020/08/27-02:20:40.714 4155 Delete type=0 #3
-2020/08/27-02:20:40.714 4155 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/26-09:08:40.127 fae Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/26-09:08:40.127 fae Recovering log #4
+2020/09/26-09:08:40.127 fae Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000004.log 
+2020/09/26-09:09:12.162 983 Level-0 table #8: started
+2020/09/26-09:09:12.165 983 Level-0 table #8: 688 bytes OK
+2020/09/26-09:09:12.168 983 Delete type=0 #4
+2020/09/26-09:09:12.169 983 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/26-09:09:12.169 983 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 73 : 1
+2020/09/26-09:09:12.169 983 Compacting 1@1 + 1@2 files
+2020/09/26-09:09:12.173 983 Generated table #9@1: 22 keys, 658 bytes
+2020/09/26-09:09:12.173 983 Compacted 1@1 + 1@2 files => 658 bytes
+2020/09/26-09:09:12.176 983 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/26-09:09:12.177 983 Delete type=2 #5
+2020/09/26-09:09:12.177 983 Delete type=2 #8
+2020/09/26-09:09:12.178 983 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 73 : 1 .. (end); will stop at (end)

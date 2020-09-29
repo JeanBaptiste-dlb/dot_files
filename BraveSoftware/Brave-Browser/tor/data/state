@@ -1,0 +1,55 @@
+# Tor state file last generated on 2020-09-27 22:34:40 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+Guard in=default rsa_id=1B91B86B67317A63636FE38ABE6C4E701A2B1A99 nickname=shitbox sampled_on=2020-08-23T23:14:58 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=E8BAE7393740A700D50B010DED9D9EC9A66B390D nickname=relay4u sampled_on=2020-08-23T09:47:45 sampled_by=0.3.5.11 listed=1 confirmed_on=2020-08-28T09:08:28 confirmed_idx=2
+Guard in=default rsa_id=E1DE607E31C2C0FB6F8FC959BF7B58CE35D95990 nickname=Unnamed sampled_on=2020-08-23T02:06:44 sampled_by=0.3.5.11 listed=1 confirmed_on=2020-09-04T08:07:09 confirmed_idx=4
+Guard in=default rsa_id=0C3D5E19E3C75B505C8ACD26F89DCA2DF970553E nickname=HORUS1 sampled_on=2020-08-29T17:23:03 sampled_by=0.3.5.11 unlisted_since=2020-09-24T00:07:58 listed=0
+Guard in=default rsa_id=3239007CE1FB2ECDFDF2067DF23B949295DC5EF6 nickname=TOR2DFN01a sampled_on=2020-08-23T06:34:42 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=43FF3346A3F8E4ED27F631DC956C4CD8D6173D7A nickname=fujiwara sampled_on=2020-08-30T17:19:34 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=BF7BFCB3096FC81FBD0B7ADA66164431EC7FD117 nickname=weepy sampled_on=2020-08-26T08:57:56 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=73E2046A1E7F0E95D36C3F979CE5FAC3609AC610 nickname=Torild sampled_on=2020-08-24T03:15:47 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=235D3444236ABC28F412E93814F6B783200D4630 nickname=UenoStation54 sampled_on=2020-08-29T10:51:13 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=0C6D3655763B1A3A60FC42135CD60765AFE953BA nickname=aSmallRelay sampled_on=2020-08-25T02:17:15 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=56927E61B51E6F363FB55498150A6DDFCF7077F2 nickname=Akka sampled_on=2020-08-28T19:06:08 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=782936C16BF876F5F59A1793ADB1C5B251DB65E7 nickname=mischief sampled_on=2020-09-04T19:37:57 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=8404E8B8AAB98208FAEFB1727B637133AD9C6FAF nickname=8rijgto8 sampled_on=2020-08-25T12:22:17 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=B0335F7872A698A86E5E9AC3CF323B50AEF9C081 nickname=JanewayMurdrdTuvix sampled_on=2020-08-24T07:24:48 sampled_by=0.3.5.11 listed=1 confirmed_on=2020-09-06T01:56:26 confirmed_idx=3
+Guard in=default rsa_id=061E0496931D23A81A2B685C9339D36857DD0FA1 nickname=loglessRelay1 sampled_on=2020-08-31T23:51:59 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=2A621A40FF3081F612946FDFB8DC781BCE859A05 nickname=neurostar sampled_on=2020-08-22T02:51:55 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=FD7ED9F4871E2EC46035FC602960EACC32E08FF8 nickname=Mikedideditheconfig sampled_on=2020-08-28T09:20:24 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=3586697291602DC8042EB152E60701FFFE8777BD nickname=Unnamed sampled_on=2020-08-22T22:08:06 sampled_by=0.3.5.11 listed=1
+Guard in=default rsa_id=B0A63BC3FDA67A7ADD1BE08BAA8309C4B204D29B nickname=brotherhood sampled_on=2020-08-31T18:33:45 sampled_by=0.3.5.11 listed=1 confirmed_on=2020-08-20T11:48:58 confirmed_idx=0 pb_use_attempts=84.000000 pb_use_successes=83.500000 pb_circ_attempts=162.000000 pb_circ_successes=161.000000 pb_successful_circuits_closed=160.000000 pb_unusable_circuits=1.000000 pb_timeouts=5.000000
+Guard in=default rsa_id=91517F219F7648E4B8BBF3C162C77DDC55315612 nickname=F00F00 sampled_on=2020-08-27T02:41:36 sampled_by=0.3.5.11 listed=1 confirmed_on=2020-08-30T10:24:32 confirmed_idx=1
+Guard in=default rsa_id=DC9564AE8BC7BF5F722E3677C897ED1B578C8D81 nickname=N1nj4 sampled_on=2020-08-26T16:54:25 sampled_by=0.3.5.11 listed=1
+TorVersion Tor 0.3.5.11
+LastWritten 2020-09-27 22:34:40
+TotalBuildTimes 161
+CircuitBuildTimeBin 125 7
+CircuitBuildTimeBin 175 37
+CircuitBuildTimeBin 225 33
+CircuitBuildTimeBin 275 13
+CircuitBuildTimeBin 325 13
+CircuitBuildTimeBin 375 7
+CircuitBuildTimeBin 425 8
+CircuitBuildTimeBin 475 7
+CircuitBuildTimeBin 525 5
+CircuitBuildTimeBin 575 5
+CircuitBuildTimeBin 625 1
+CircuitBuildTimeBin 675 4
+CircuitBuildTimeBin 725 3
+CircuitBuildTimeBin 775 3
+CircuitBuildTimeBin 825 1
+CircuitBuildTimeBin 875 1
+CircuitBuildTimeBin 1025 3
+CircuitBuildTimeBin 1075 1
+CircuitBuildTimeBin 1175 1
+CircuitBuildTimeBin 1225 1
+CircuitBuildTimeBin 1575 1
+CircuitBuildTimeBin 1625 1
+CircuitBuildTimeBin 1825 1
+CircuitBuildTimeBin 2925 1
+CircuitBuildTimeBin 4175 1
+CircuitBuildTimeBin 5725 1
+CircuitBuildTimeBin 41325 1

@@ -1,0 +1,235 @@
+<div class="">
+  <div class="row" style="border-bottom:1px solid #ddd;margin-bottom:0px;">
+    <div class="col s2">
+      <i
+        class="menu material-icons blue-grey-text text-darken-1 dropdown-button"
+        data-constrainwidth="false"
+        data-beloworigin="true"
+        data-activates="menu"
+        style="font-size:20px;padding:9px 0px 0 0;cursor:pointer;"
+      >menu</i>
+      <!-- Dropdown Structure -->
+      <ul id="menu" class="dropdown-content">
+        <!-- <li><a class="bonus" href="#!">Mes Bonus</a></li> -->
+        <li><a class="account" href="#!" data-i18n>mon_compte</a></li>
+        <li><a href="https://www.wanteeed.com/retailers" target="_blank" data-i18n>les_boutiques</a></li>
+      </ul>
+
+    </div>
+    <div class="col s8">
+      <ul class="tabs app" style="height:37px;">
+        <li class="tab col s3 check" style="line-height:39px;height:37px;"><a href="#checkpanel" data-i18n>codes</a></li>
+        <li class="tab col s3 bonus" style="line-height:39px;height:37px;"><a href="#bonuspanel" data-i18n>bonus</a></li>
+      </ul>
+      <ul class="tabs login" style="height:37px;display:none;">
+        <li class="tab col s3" style="line-height:39px;height:37px;"><a href="#loginpanel" data-i18n>connexion</a></li>
+      </ul>
+      <ul class="tabs register" style="height:37px;display:none;">
+        <li class="tab col s3" style="line-height:39px;height:37px;"><a href="#registerpanel" data-i18n>activation</a></li>
+      </ul>
+      <!--<div class="valign-wrapper">
+				<img class="logo valign" />
+			</div>	-->
+    </div>
+    <div class="col s2 right-align" id="close">
+      <i class="material-icons"
+        style="color:rgba(14, 48, 91, 0.6);font-size:20px;padding:9px 0px 0 0;cursor:pointer;">close</i>
+    </div>
+  </div>
+
+  <div id="checkpanel" class="col s12" style="margin-top:20px;">
+    <div id="check" class="" style="display:none;">
+      <div class="row" style="margin-bottom:20px;">
+        <div class="col s12">
+          <div class="valign-wrapper">
+            <div class="circle center-align red-text text-lighten-1"
+              style="width:50px;height:50px;border:1px solid rgb(255, 126, 120) ;line-height:48px;font-size:25px;margin:auto;">
+              15
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom:20px;">
+        <div class="col s12">
+          <div class="center-align message grey-text text-darken-2" style="font-size:15px;margin:auto;width:200px;" data-i18n>
+            codes_promo_disponibles_pour_cette_boutique
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom:20px;">
+        <div class="col s12">
+          <div class="valign-wrapper">
+            <a class="runcheck waves-effect waves-light btn red lighten-1 disabled"
+              style="margin:auto;width:195px;height:35px;line-height:35px;" data-i18n>tester_les_codes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row cantcheck" style="display:none;margin-bottom:8px">
+        <div class="valign-wrapper">
+          <div class="col s2">
+            <div class="right-align">
+              <i class="material-icons"
+                style="font-size:20px;padding:0px 0px 0 0;cursor:pointer;color:rgba(14, 48, 91, 0.6)">info_outline</i>
+            </div>
+          </div>
+
+          <div class="col s8">
+            <div class="left-align message grey-text text-darken-2" style="font-size:11px;margin:auto;">
+              <span data-i18n>cette_page_ne_permet_pas_d_entrer_un_code_promo</span>
+               <a href="#" id="demo" style="text-decoration:underline;" data-i18n>voir_la_demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="vote" class="" style="display:none;">
+      <p style="padding:0 20px" class="center-align" data-i18n>les_codes_promo_automatiques_ne_sont_pas_encore_disponibles_sur_cette_boutique</p>
+      <div class="valign-wrapper">
+        <div class="circle center-align red-text text-lighten-1"
+          style="width:70px;height:70px;border:1px solid #e57373 ;line-height:70px;font-size:25px;margin:auto;cursor:pointer;">
+          <i class="material-icons" style="line-height:70px;font-size:32px;">thumb_up</i>
+        </div>
+      </div>
+      <div class="center-align red-text text-lighten-2 message" data-i18n>je_vote</div>
+    </div>
+  </div>
+
+  <div id="bonuspanel" class="col s12" style="margin-top:7px;">
+    <div style="height: 205px;position:relative;">
+      <div class="row" style="margin-bottom: 15px;">
+        <div class="col s12">
+          <div class="center-align valign-wrapper grey-text text-darken-2">
+            <div class="bestOfferOK hide">
+              <div><img style="height: 39px;"></div>
+              <div style="font-size:20px;line-height: 21px;margin-top: 3px;" data-i18n>bonus_surprise</div>
+              <div class="grey-text text-darken" data-i18n>jusqu_a_x_</div>
+              <div style="margin: 11px 40px 0;font-size:13px;line-height:16px;" data-i18n>nous_vous_remboursons_une_partie_de_vos_achats_sur_cette_boutique</div>
+            </div>
+            <div class="bestOfferOKenabled hide">
+              <div id="progressValidationCircle" style="width: 70px; height: 70px; position: relative; margin: 5px auto;"></div>
+              <div class="grey-text text-darken" style="margin: 4px 40px 0;" data-i18n>_x_des_derniers_achats_ont_donne_droit_a_un_bonus_surprise</div>
+            </div>
+            <div class="bestOfferNOK hide" style="margin-top: 47px;" data-i18n>aucun_bonus_n_est_actuellement_disponible_pour_cette_boutique</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 5px;">
+        <div class="col s12">
+          <div class="valign-wrapper">
+            <a class="bonus waves-effect waves-light btn red lighten-1 disabled" style="margin:auto;width:195px;height:35px;line-height:35px;" data-i18n>pas_de_bonus</a>
+          </div>
+        </div>
+      </div>
+      <div style="position:absolute;bottom:0;left:0;width:100%;">
+        <div class="left-align message red-text text-lighten-3 exclusions center hide" style="font-size:12px;margin:auto;">
+          <span style="cursor: pointer;" data-i18n>exclusions</span>
+        </div>
+        <div style="position: absolute;right: 3px; bottom:2px;">
+          <a class="material-icons" style="font-size:20px;padding:0px 0px 0 0;cursor:pointer;color:rgba(14, 48, 91, 0.6);" href="https://www.wanteeed.com/bonusInfo" target="_blank">info_outline</a>
+        </div>
+      </div>
+    </div>
+    <div id="exclusionsContent" class="hide grey-text text-darken" style="overflow: hidden; position: relative; max-height: 300px;margin:10px 14px 0px 22px;">
+      <div style="padding-right: 8px; padding-bottom: 10px;"></div>
+    </div>
+  </div>
+
+  <div id="loginpanel" class="col s12" style="margin-top:20px;display:none;position:relative;">
+    <div class="row" style="margin-bottom:5px">
+      <div class="col s8 offset-s2">
+        <label for="email" data-i18n>email</label>
+        <input name="email" id="email" value="" class="form-control" type="text" style="height:25px;">
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:5px">
+      <div class="col s8 offset-s2" style="position:relative">
+        <label for="password" data-i18n>mot_de_passe</label>
+        <input name="password" id="password" value="" class="form-control" style="height:25px;" type="password">
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:10px">
+      <div class="col s12">
+        <div class="valign-wrapper">
+          <a class="login waves-effect waves-light btn red lighten-1 " style="margin:auto;width:195px;height:35px;line-height:35px;" data-i18n>se_connecter</a>
+          <div id="ids_error" data-i18n>mail_ou_mot_de_passe_incorrect</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s6">
+        <div class="left-align" style="font-size:11px;">
+          <a class="back" href="#!" data-i18n>annuler</a>
+        </div>
+      </div>
+      <div class="col s6">
+        <div class="right-align" style="font-size:11px;">
+          <a class="forgot" target="_blank" href="http://wanteeed.com/forgot-password" data-i18n>mot_de_passe_oublie</a>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="ids_error">Identifiants Invalides</div> -->
+  </div>
+
+  <div id="registerpanel" class="col s12" style="margin-top:20px;display:none;">
+
+    <div class="row" style="margin-bottom:5px">
+      <div class="col s10 offset-s1" style="font-size:15px;text-align:center;" data-i18n>sur_quel_mail_souhaitez_vous_recevoir_vos_bonus</div>
+    </div>
+
+    <div class="row" style="margin:15px 0px">
+      <div class="col s8 offset-s2" style="position: relative">
+        <!--<label for="email">Email</label>-->
+        <input name="email" id="email" placeholder="mon@email.com" value="" class="form-control" type="text" style="height:25px;margin-bottom:5px;">
+        <div id="email_error" style="height:25px;" data-i18n>format_invalide</div>
+        <!--
+						<label for="password">Mot de passe</label>
+						<input name="password" id="password" value="" class="form-control" style="height:25px;margin-bottom:5px;" type="password">
+						-->
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:10px">
+      <div class="col s12">
+        <div class="valign-wrapper">
+          <a class="register waves-effect waves-light btn red lighten-1 " style="margin:auto;width:195px;height:35px;line-height:35px;" data-i18n>valider</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row" style="margin-bottom:8px">
+				<div class="valign-wrapper">
+					<div class="col s2">
+						<div class="right-align">
+							<i class="material-icons blue-grey-text text-darken-1" style="font-size:20px;padding:0px 0px 0 0;cursor:pointer;">info_outline</i>
+						</div>
+					</div>
+
+				<div class="col s8">
+						<div class="left-align message grey-text text-darken-2" style="font-size:11px;margin:auto;">
+							Nous vous enverrons un mail 24h après votre achat
+						</div>
+					</div>
+				</div>
+			 </div>  -->
+
+    <div class="row" style="margin:35px 0 0 0px;">
+      <div class="col s6">
+        <div class="left-align" style="font-size:11px;">
+          <a class="back" href="#!" data-i18n>annuler</a>
+        </div>
+      </div>
+      <div class="col s6">
+        <div class="right-align" style="font-size:11px;">
+          <a class="login" href="#!" data-i18n>j_ai_deja_un_compte</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

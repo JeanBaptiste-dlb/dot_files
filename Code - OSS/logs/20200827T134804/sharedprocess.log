@@ -1,8 +1,0 @@
-[2020-08-27 13:48:08.094] [sharedprocess] [info] main {"machineId":"9069008fb1f284a390809a46b645ac2746450ccf158ca85ed32a698e09cbfd90","windowId":2}
-[2020-08-27 13:48:48.105] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-08-27 13:49:30.831] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
-[2020-08-27 13:49:33.326] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/cormak/.config/Code - OSS/CachedExtensionVSIXs/pkief.material-icon-theme-4.2.0
-[2020-08-27 13:49:34.205] [sharedprocess] [info] Extracted extension to /home/cormak/.vscode-oss/extensions/.pkief.material-icon-theme-4.2.0: pkief.material-icon-theme
-[2020-08-27 13:49:34.205] [sharedprocess] [info] Renamed to /home/cormak/.vscode-oss/extensions/pkief.material-icon-theme-4.2.0
-[2020-08-27 13:49:34.206] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
-[2020-08-27 13:49:34.213] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme

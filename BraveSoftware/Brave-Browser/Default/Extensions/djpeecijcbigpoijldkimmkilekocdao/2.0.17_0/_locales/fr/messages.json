@@ -1,0 +1,418 @@
+{
+   "AutoCheck_label": {
+      "message": "Correction automatiques sur les champs"
+   },
+   "CorrectionSingleLine_label": {
+      "message": "Correction sur les champs ne comportant qu'une seule ligne (ex : champs objet des messages)"
+   },
+   "DefaultLanguage_label": {
+      "message": "Langage de correction"
+   },
+   "Genre_Feminine": {
+      "message": "Féminin"
+   },
+   "Genre_Feminine_plural": {
+      "message": "Féminin pluriel"
+   },
+   "Genre_Feminine_singular": {
+      "message": "Féminin singulier"
+   },
+   "Genre_Je_label": {
+      "message": "Genre de « je »"
+   },
+   "Genre_Masculine": {
+      "message": "Masculin"
+   },
+   "Genre_Masculine_or_feminine_plural": {
+      "message": "Masculin ou féminin pluriel"
+   },
+   "Genre_Masculine_or_feminine_singular": {
+      "message": "Masculin ou féminin singulier"
+   },
+   "Genre_Masculine_plural": {
+      "message": "Masculin pluriel"
+   },
+   "Genre_Masculine_singular": {
+      "message": "Masculin singulier"
+   },
+   "Genre_Nous_label": {
+      "message": "Genre de « nous »"
+   },
+   "Genre_On_label": {
+      "message": "Genre de « on »"
+   },
+   "Genre_Tu_label": {
+      "message": "Genre de « tu »"
+   },
+   "Genre_Undefined": {
+      "message": "Indéfini"
+   },
+   "Genre_Vous_label": {
+      "message": "Genre de « vous »"
+   },
+   "InactivatedAccount": {
+      "message": "Compte non activé."
+   },
+   "InvalidPassword": {
+      "message": "Identification invalide."
+   },
+   "NotExistingId": {
+      "message": "Identification invalide."
+   },
+   "P1A": {
+      "message": "1 an"
+   },
+   "P1A_RA": {
+      "message": "1 an - automatiquement renouvelable"
+   },
+   "P1M": {
+      "message": "1 mois"
+   },
+   "P1M_RA": {
+      "message": "1 mois - automatiquement renouvelable"
+   },
+   "P3M": {
+      "message": "3 mois"
+   },
+   "P3M_RA": {
+      "message": "3 mois - automatiquement renouvelable"
+   },
+   "SessionActive": {
+      "message": "Scribens est en cours d'utilisation par un autre utilisateur."
+   },
+   "ShowUPSol_label": {
+      "message": "Affichage des corrections sur les noms propres inconnus."
+   },
+   "Spelling_reform_of_1990_label": {
+      "message": "Réforme de l’orthographe de 1990"
+   },
+   "TRIAL": {
+      "message": "-"
+   },
+   "UsBr_label": {
+      "message": "Anglais britannique/anglais américain"
+   },
+   "UsBr_option_01": {
+      "message": "Tout"
+   },
+   "UsBr_option_02": {
+      "message": "Anglais britannique"
+   },
+   "UsBr_option_03": {
+      "message": "Anglais américain"
+   },
+   "already_have_account": {
+      "message": "Vous avez déjà un compte ?"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Scribens est un correcteur d'orthographe et de grammaire puissant."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Scribens : correcteur d'orthographe puissant"
+   },
+   "are_you_sure": {
+      "message": "Êtes-vous sûr ?"
+   },
+   "become_premium_user": {
+      "message": "Devenir Premium"
+   },
+   "cancel": {
+      "message": "ANNULER"
+   },
+   "confirm_at": {
+      "message": "confirmation à :"
+   },
+   "confirm_email": {
+      "message": "CONFIRMEZ VOTRE EMAIL"
+   },
+   "correction": {
+      "message": "Correction"
+   },
+   "create_your_account": {
+      "message": "S’inscrire"
+   },
+   "day_remaning": {
+      "message": "jour restant"
+   },
+   "days_remaning": {
+      "message": "jours restants"
+   },
+   "do_you_have_question": {
+      "message": "VOUS AVEZ UNE QUESTION ?"
+   },
+   "domainName": {
+      "message": "scribens.fr"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "email_already_exists": {
+      "message": "L'e-mail que vous avez entré existe déjà."
+   },
+   "email_is_not_associated": {
+      "message": "Cet email n'est associé à aucun compte."
+   },
+   "email_to_reset_password_sent": {
+      "message": "Un email pour réinitialiser votre mot de passe vous a été envoyé."
+   },
+   "english": {
+      "message": "Anglais"
+   },
+   "error": {
+      "message": "Erreur"
+   },
+   "expired": {
+      "message": "Expiré"
+   },
+   "extension": {
+      "message": "Extension"
+   },
+   "finish": {
+      "message": "Terminer"
+   },
+   "forgot_your_password": {
+      "message": "Mot de passe oublié ?"
+   },
+   "free_version": {
+      "message": "Version gratuite"
+   },
+   "french": {
+      "message": "Français"
+   },
+   "hour_remaning": {
+      "message": "heure restant"
+   },
+   "hours_remaning": {
+      "message": "heures restants"
+   },
+   "html_0001": {
+      "message": "\u003Cdiv>Correcteur \u003Cspan class=\"text-red\">d’orthographe\u003C/span> et\u003C/div>\u003Cdiv>de \u003Cspan class=\"text-red\">grammaire\u003C/span>\u003C/div>"
+   },
+   "html_0002": {
+      "message": "Inscrivez-vous pour bénéficier des avantages de \u003Ca href=\"https://www.scribens.fr/?key=VersionPremium\" class=\"text-blue\" target=\"_blank\">l'offre Premium\u003C/a>."
+   },
+   "html_0003": {
+      "message": "\u003Cdiv class=\"text-gray\">Vérifiez votre email et cliquez sur le\u003C/div> \u003Cdiv class=\"text-gray\">lien de confirmation pour bénéficier de\u003C/div>\u003Cdiv class=\"text-bold text-blue\">\u003Ca href=\"https://www.scribens.fr/?key=VersionPremium\" target=\"_blank\">l’offre Premium\u003C/a>.\u003C/div>"
+   },
+   "html_tooltip_limit_exceeded_02": {
+      "message": "Abonnez-vous à la \u003Ca href=\"https://www.scribens.fr/?key=VersionPremium\" class=\"text-blue\" target=\"_blank\">version Premium\u003C/a> pour bénéficier d'une correction illimitée et de tous les avantages de \u003Ca href=\"https://www.scribens.fr\" class=\"text-blue\" target=\"_blank\">Scribens\u003C/a>."
+   },
+   "html_tooltip_limit_exceeded_03": {
+      "message": "\u003Cbr>\u003Cstrong>OU\u003C/strong>\u003Cbr>Connectez-vous à votre compte."
+   },
+   "html_tooltip_limit_exceeded_04": {
+      "message": ""
+   },
+   "html_tooltip_limit_exceeded_05": {
+      "message": ""
+   },
+   "html_tooltip_limit_exceeded_06": {
+      "message": "\u003Cbr>Rendez-vous sur"
+   },
+   "login": {
+      "message": "Se connecter"
+   },
+   "logout": {
+      "message": "Déconnexion"
+   },
+   "missing_text": {
+      "message": "Texte manquant"
+   },
+   "modify_my_account": {
+      "message": "Modifier mon compte"
+   },
+   "month_remaning": {
+      "message": "mois restants"
+   },
+   "months_remaning": {
+      "message": "mois restants"
+   },
+   "must_not_contains": {
+      "message": "Ne doit pas contenir les caractères («'», «|», «\\», «,»)"
+   },
+   "my_account": {
+      "message": "Mon compte"
+   },
+   "my_account_desc": {
+      "message": "Gestion du profil"
+   },
+   "no_account_yet": {
+      "message": "Pas encore de compte ?"
+   },
+   "not_activated": {
+      "message": "Non activé"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "password": {
+      "message": "Mot de passe"
+   },
+   "password_recovery": {
+      "message": "Récupération de mot de passe"
+   },
+   "password_requirements": {
+      "message": "Règles de mot de passe :"
+   },
+   "please_fill_fields": {
+      "message": "Veuillez compléter tous les champs du formulaire avant de valider."
+   },
+   "premium_subscription": {
+      "message": "Abonnement Premium"
+   },
+   "premium_version_link": {
+      "message": "https://www.scribens.fr/?key=VersionPremium"
+   },
+   "redundancies": {
+      "message": "Redondances"
+   },
+   "registration": {
+      "message": "Inscription"
+   },
+   "rephrases": {
+      "message": "Reformulations"
+   },
+   "required_lowercase": {
+      "message": "Doit contenir au moins un caractère en minuscule."
+   },
+   "required_min_chars": {
+      "message": "Taille minimale de 6 caractères."
+   },
+   "required_special_char": {
+      "message": "Doit contenir au moins un caractère spécial (!, @, #, $, etc.)"
+   },
+   "required_uppercase": {
+      "message": "Doit contenir au moins un caractère en majuscule."
+   },
+   "resend": {
+      "message": "Renvoyer"
+   },
+   "resend_email": {
+      "message": "Renvoyer l'email"
+   },
+   "run_on_sentences": {
+      "message": "Phrases longues"
+   },
+   "save": {
+      "message": "Sauvegarder"
+   },
+   "scribens_premium": {
+      "message": "Version premium"
+   },
+   "see_all_our_packages": {
+      "message": "Voir les offres"
+   },
+   "send": {
+      "message": "Envoyer"
+   },
+   "settings": {
+      "message": "Réglages"
+   },
+   "settings_desc": {
+      "message": "Gestion des paramètres"
+   },
+   "something_went_wrong": {
+      "message": "Quelque chose s'est mal passé."
+   },
+   "subjectivity_negative": {
+      "message": "Subjectivité - négatif"
+   },
+   "subjectivity_positive": {
+      "message": "Subjectivité - positif"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "support_desc": {
+      "message": "Contactez-nous"
+   },
+   "support_placeholder": {
+      "message": "Une question ? Contactez-nous via ce formulaire, nous traiterons votre demande au plus vite."
+   },
+   "synonyms": {
+      "message": "Synonymes"
+   },
+   "terms_and_conditions": {
+      "message": "CGUs"
+   },
+   "terms_and_conditions_desc": {
+      "message": "En savoir plus"
+   },
+   "terms_and_conditions_link": {
+      "message": "https://www.scribens.fr/download/CGV_Scribens.txt"
+   },
+   "thank_you_for_your_help": {
+      "message": "Merci pour votre aide,"
+   },
+   "tooltip_bg_size": {
+      "message": "120px"
+   },
+   "tooltip_limit_exceeded_01": {
+      "message": "Votre version d'essai est arrivée à expiration."
+   },
+   "tooltip_limit_exceeded_03": {
+      "message": "",
+      "placeholders": {
+         "icon": {
+            "content": "$1",
+            "example": ""
+         }
+      }
+   },
+   "tooltip_limit_nb_char": {
+      "message": "Votre texte dépasse le nombre de caractères permis."
+   },
+   "tooltip_welcome_01": {
+      "message": "Bienvenue chez Scribens !"
+   },
+   "tooltip_welcome_02": {
+      "message": "Cliquez ici pour démarrer la correction et obtenir des solutions de style."
+   },
+   "user_account_link": {
+      "message": "https://www.scribens.fr/?key=MonCompte"
+   },
+   "user_feedback": {
+      "message": "Retours utilisateurs"
+   },
+   "username": {
+      "message": "Nom d'utilisateur"
+   },
+   "vocabulary_enhancement": {
+      "message": "Amélioration de vocabulaire"
+   },
+   "we_sent_email": {
+      "message": "Nous avons envoyé un email de"
+   },
+   "we_sent_email_to": {
+      "message": "Nous avons envoyé un email de confirmation à :"
+   },
+   "word_reductions": {
+      "message": "Réduction de mots"
+   },
+   "word_repetitions": {
+      "message": "Répétitions"
+   },
+   "year_remaning": {
+      "message": "an restant"
+   },
+   "years_remaning": {
+      "message": "ans restants"
+   },
+   "yes": {
+      "message": "OUI"
+   },
+   "your_feedback_01": {
+      "message": "Votre commentaire va nous permettre"
+   },
+   "your_feedback_02": {
+      "message": "de nous améliorer afin de vous"
+   },
+   "your_feedback_03": {
+      "message": "proposer la meilleure expérience"
+   },
+   "your_feedback_04": {
+      "message": "possible sur l'extension Scribens."
+   }
+}

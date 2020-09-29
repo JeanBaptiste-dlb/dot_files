@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon-128.png",
+      "default_popup": "pages/popup.html",
+      "default_title": "Scribens"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "js/main.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "fr",
+   "description": "__MSG_appDesc__",
+   "differential_fingerprint": "1.8f3f603b7b01d19a3b017e0f2f318714a2e4e7bf91bf78fb9dd91afebb2b1f94",
+   "homepage_url": "https://www.scribens.fr",
+   "icons": {
+      "128": "images/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0xMT3pMsFRRJ3L9xHnNpbrU54iAt2RSlIGhvHIAb6oxxjbgYzg+apqdQlymMtim6VPpLWqCdEg3lC9yz1Nt3OHQnkv85Tix1LExI3pfPGF+wKGju/fpDIyGAyf7sqIVRbPcQHRFfmKsg1KW+vBY8TcrWc2j66F67S0hHVSNQU7RRA5YyJiWc2BFmY/r+bmS9KdQE4lgHTRysg/swgRMwboFYbjFeRqgFk7SwBOHpaLkCUzLrlDF+ZhnLd1EIdAr5pqXBK8WHdeYQq48jx1t0VelNWy+3swKFlYgwt2N6QSznjqSkc17MNjySF6++V4BGCR1e3iWZPydJbUjIc1f0EwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.17",
+   "web_accessible_resources": [ "js/main.js", "images/*" ]
+}

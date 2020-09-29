@@ -1,0 +1,13 @@
+<svg id="Group_411" data-name="Group 411" xmlns="http://www.w3.org/2000/svg" width="44.713" height="43.819" viewBox="0 0 44.713 43.819">
+  <g id="Group_3" data-name="Group 3" transform="translate(0 0)">
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="22.357" cy="21.909" rx="22.357" ry="21.909" fill="#0085ca"/>
+  </g>
+  <line id="Line_1" data-name="Line 1" x2="23.083" transform="translate(10.469 14.823)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <line id="Line_2" data-name="Line 2" x2="23.083" transform="translate(10.469 22.269)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <line id="Line_3" data-name="Line 3" x2="23.083" transform="translate(10.469 29.715)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="8.048" cy="8.048" r="8.048" transform="translate(22.357 8.943)" fill="#0085ca"/>
+  <g id="baseline-check-24px" transform="translate(22.755 7.004)">
+    <path id="Path_10" data-name="Path 10" d="M0,0H17.871V17.871H0Z" fill="none"/>
+    <path id="Path_11" data-name="Path 11" d="M7.572,13.468,4.467,10.363,3.41,11.413l4.162,4.162L16.508,6.64l-1.05-1.05Z" transform="translate(-0.871 -1.428)" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

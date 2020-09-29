@@ -17,6 +17,8 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop
 message/rfc822=userapp-Thunderbird.desktop
 application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
+x-scheme-handler/kite=kite-copilot.desktop
+x-scheme-handler/mailspring=mailspring.desktop
 
 [Added Associations]
 x-scheme-handler/http=exo-web-browser.desktop;
@@ -33,7 +35,6 @@ application/x-extension-xht=userapp-Pale Moon.desktop;
 image/jpeg=viewnior.desktop;gpicview.desktop;
 image/png=viewnior.desktop;gpicview.desktop;
 text/plain=mousepad.desktop;
-x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;

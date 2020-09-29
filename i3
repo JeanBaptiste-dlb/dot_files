@@ -57,6 +57,7 @@ bindsym $mod+z exec --no-startup-id morc_menu
 
 exec --no-startup-id volumeicon
 bindsym $mod+Ctrl+m exec $terminal -e 'alsamixer'
+exec --no-startup-id spotifyd -u jeanbaptistedelabroise@gmail.com -p ~/Document/scripts/spotifypw.sh
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol

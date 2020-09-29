@@ -1,8 +1,41 @@
 {
     "telemetry.machineId": "9069008fb1f284a390809a46b645ac2746450ccf158ca85ed32a698e09cbfd90",
     "openedPathsList": {
-        "workspaces3": [],
-        "files2": []
+        "workspaces3": [
+            "file:///home/cormak/Documents/MegaSync/cours/my_wiki/information_sec_pri",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project",
+            "file:///home/cormak/.vim",
+            "file:///home/cormak/Documents/MegaSync/cours",
+            "file:///home/cormak/Documents/MegaSync",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects",
+            "file:///home/cormak/Documents/MegaSync/cours/my_wiki",
+            "file:///home/cormak/Documents/MegaSync/cours/ADA2020",
+            "file:///home/cormak/Documents/cours/ADA2020",
+            "file:///home/cormak/Documents/cours/ML_course",
+            "file:///home/cormak/Documents/INF_sec_pri"
+        ],
+        "files2": [
+            "file:///home/cormak/.config/i3",
+            "file:///home/cormak/.config/spotify-tui/client.yml",
+            "file:///home/cormak/.viminfo",
+            "file:///home/cormak/.vimrc",
+            "file:///etc/vimrc",
+            "file:///usr/share/vim/vimfiles/archlinux.vim",
+            "file:///home/cormak/.config/nvim/init.vim",
+            "file:///home/cormak/Documents/MegaSync/usb_maman/tamere.pdf",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/Untitled%201.ods",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/the_semantics_of_interjections.pdf",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/anderson_et_al2010.pdf",
+            "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/Marge%20et%20al.%20-%202010%20-%20Towards%20Improving%20the%20Naturalness%20of%20Social%20Conversations%20with%20Dialogue%20Systems.pdf",
+            "file:///home/cormak/.i3.%3D/config",
+            "file:///home/cormak/.i3/config",
+            "file:///home/cormak/Documents/MegaSync/cours/my_wiki/python_notes/pandas.md",
+            "file:///home/cormak/Documents/MegaSync/cours/my_wiki/index.md",
+            "file:///home/cormak/Documents/cours/python_notes/pandas.md",
+            "file:///home/cormak/Documents/cours/ADA2020/Tutorials/00%20-%20Intro%20to%20Tools/Intro%20to%20Jupyter%20Notebooks.ipynb",
+            "file:///home/cormak/Documents/docker/index.html",
+            "file:///home/cormak/Documents/MegaSync/EPFL/applied_data_analysis/final_exam.ipynb"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -38,8 +71,233 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/my_wiki/information_sec_pri",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/my_wiki/information_sec_pri",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/my_wiki/information_sec_pri"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/Projects/Semester Project",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/Projects/Semester Project"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.vim",
+                                        "path": "/home/cormak/.vim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.vim"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours",
+                                        "path": "/home/cormak/Documents/MegaSync/cours",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync",
+                                        "path": "/home/cormak/Documents/MegaSync",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/Projects",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/Projects",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/Projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/my_wiki",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/my_wiki",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/my_wiki"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/ADA2020",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/ADA2020",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/ADA2020"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/cours/ADA2020",
+                                        "path": "/home/cormak/Documents/cours/ADA2020",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/cours/ADA2020"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/cours/ML_course",
+                                        "path": "/home/cormak/Documents/cours/ML_course",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/cours/ML_course"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.config/i3",
+                                        "path": "/home/cormak/.config/i3",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/i3"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.config/spotify-tui/client.yml",
+                                        "path": "/home/cormak/.config/spotify-tui/client.yml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/spotify-tui/client.yml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.viminfo",
+                                        "path": "/home/cormak/.viminfo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.viminfo"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.vimrc",
+                                        "path": "/home/cormak/.vimrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.vimrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/vimrc",
+                                        "path": "/etc/vimrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/vimrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/share/vim/vimfiles/archlinux.vim",
+                                        "path": "/usr/share/vim/vimfiles/archlinux.vim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/share/vim/vimfiles/archlinux.vim"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/.config/nvim/init.vim",
+                                        "path": "/home/cormak/.config/nvim/init.vim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/nvim/init.vim"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/usb_maman/tamere.pdf",
+                                        "path": "/home/cormak/Documents/MegaSync/usb_maman/tamere.pdf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/usb_maman/tamere.pdf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/Untitled%201.ods",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/Projects/Semester Project/Untitled 1.ods",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/Projects/Semester Project/Untitled 1.ods"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cormak/Documents/MegaSync/cours/Projects/Semester%20Project/the_semantics_of_interjections.pdf",
+                                        "path": "/home/cormak/Documents/MegaSync/cours/Projects/Semester Project/the_semantics_of_interjections.pdf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/MegaSync/cours/Projects/Semester Project/the_semantics_of_interjections.pdf"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -78,7 +336,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -560,8 +819,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -872,7 +1130,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1010,10 +1269,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+o"
             },
-            "workbench.action.reopenClosedEditor": {
-                "label": "Ctrl+Shift+T",
-                "userSettingsLabel": "ctrl+shift+t"
-            },
             "workbench.action.openRecent": {
                 "label": "Ctrl+R",
                 "userSettingsLabel": "ctrl+r"
@@ -1086,10 +1341,6 @@
             "editor.action.clipboardPasteAction": {
                 "label": "Ctrl+V",
                 "userSettingsLabel": "ctrl+v"
-            },
-            "actions.find": {
-                "label": "Ctrl+F",
-                "userSettingsLabel": "ctrl+f"
             },
             "editor.action.startFindReplaceAction": {
                 "label": "Ctrl+H",
@@ -1182,8 +1433,8 @@
                 "userSettingsLabel": "ctrl+b"
             },
             "workbench.action.togglePanel": {
-                "label": "Ctrl+J",
-                "userSettingsLabel": "ctrl+j"
+                "label": "Ctrl+Shift+T",
+                "userSettingsLabel": "ctrl+shift+t"
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
@@ -1204,8 +1455,8 @@
                 "userSettingsLabel": "shift+alt+0"
             },
             "workbench.view.explorer": {
-                "label": "Ctrl+Shift+E",
-                "userSettingsLabel": "ctrl+shift+e"
+                "label": "Ctrl+E",
+                "userSettingsLabel": "ctrl+e"
             },
             "workbench.view.search": {
                 "label": "Ctrl+Shift+F",
@@ -1412,18 +1663,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0c0c09",
+    "themeBackground": "#282828",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/cormak/.config/Code - OSS/Backups/1598493628685",
+            "backupPath": "/home/cormak/.config/Code - OSS/Backups/1601405974378",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 0,
-                "width": 1920,
-                "height": 1056
+                "x": 1288,
+                "y": 13,
+                "width": 619,
+                "height": 1030
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/cormak/Documents/MegaSync/cours/my_wiki"
 }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="popup-wrapper" class="account-view-page">
+        <div class="justify-content-between">
+            <div>
+                <a href="../pages/menu.html" class="backward-link">
+                    <img src="../images/arrow-back-icon.svg" />
+                    <span data-scribens-i18n="my_account">
+                </a>
+            </div>
+
+            <div data-role="form">
+                <div class="form-group"> 
+                    <label data-scribens-i18n="username"></label>
+                    <div id="account-name">YOUR NAME</div>
+                </div>
+
+                <div class="form-group">
+                    <label data-scribens-i18n="email"></label>
+                    <div id="account-email">YOUR EMAIL</div>
+                </div>
+
+                <div class="form-group mb-5">
+                    <label data-scribens-i18n="password"></label>
+                    <div id="account-password">YOUR PASSWORD</div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-5 mb-5 subscription-container">
+                    <div class="form-group">
+                        <label data-scribens-i18n="scribens_premium" class="no-wrap"></label>
+                        <div>
+                            <span class="subscription-type">...</span>
+                        </div>
+                        <div>
+                            <span class="text-gray text-small">
+                                <span class="subscription-remaining">...</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="devenir-premium">
+                        <a href="#" data-scribens-i18n="attr:href|premium_version_link" target="_blank" class="text-small">
+                            <span class="pointer-events-none" data-scribens-i18n="become_premium_user"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5">
+                    <button type="button" id="button-account-exit" data-scribens-i18n="logout"></button>
+                </div>
+            </div>
+
+            <div class="text-right mb-2">
+                <a href="./account-edit.html" id="button-account-edit"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

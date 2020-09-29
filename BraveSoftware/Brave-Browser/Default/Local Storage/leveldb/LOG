@@ -1,15 +1,20 @@
-2020/08/30-21:54:15.218 696 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/08/30-21:54:15.219 696 Recovering log #29
-2020/08/30-21:54:15.219 696 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000029.log 
-2020/08/30-22:47:33.025 3c44 Level-0 table #33: started
-2020/08/30-22:47:33.030 3c44 Level-0 table #33: 13334 bytes OK
-2020/08/30-22:47:33.034 3c44 Delete type=0 #29
-2020/08/30-22:47:33.034 3c44 Compacting 4@0 + 1@1 files
-2020/08/30-22:47:33.040 3c44 Generated table #34@0: 143 keys, 71522 bytes
-2020/08/30-22:47:33.040 3c44 Compacted 4@0 + 1@1 files => 71522 bytes
-2020/08/30-22:47:33.042 3c44 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/08/30-22:47:33.043 3c44 Delete type=2 #27
-2020/08/30-22:47:33.043 3c44 Delete type=2 #33
-2020/08/30-22:47:33.043 3c44 Delete type=2 #21
-2020/08/30-22:47:33.043 3c44 Delete type=2 #30
-2020/08/30-22:47:33.043 3c44 Delete type=2 #24
+2020/09/29-17:09:21.609 553 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/09/29-17:09:21.610 553 Recovering log #397
+2020/09/29-17:09:21.611 553 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000397.log 
+2020/09/29-18:22:22.661 10f9 Level-0 table #401: started
+2020/09/29-18:22:22.665 10f9 Level-0 table #401: 15858 bytes OK
+2020/09/29-18:22:22.667 10f9 Delete type=0 #397
+2020/09/29-18:29:03.862 10f9 Level-0 table #403: started
+2020/09/29-18:29:03.871 10f9 Level-0 table #403: 116191 bytes OK
+2020/09/29-18:29:03.873 10f9 Delete type=0 #400
+2020/09/29-18:29:03.874 10f9 Compacting 4@0 + 2@1 files
+2020/09/29-18:29:03.978 10f9 Generated table #404@0: 2408 keys, 2176197 bytes
+2020/09/29-18:29:04.001 10f9 Generated table #405@0: 1190 keys, 687846 bytes
+2020/09/29-18:29:04.001 10f9 Compacted 4@0 + 2@1 files => 2864043 bytes
+2020/09/29-18:29:04.003 10f9 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/09/29-18:29:04.004 10f9 Delete type=2 #392
+2020/09/29-18:29:04.004 10f9 Delete type=2 #401
+2020/09/29-18:29:04.004 10f9 Delete type=2 #394
+2020/09/29-18:29:04.004 10f9 Delete type=2 #398
+2020/09/29-18:29:04.004 10f9 Delete type=2 #403
+2020/09/29-18:29:04.004 10f9 Delete type=2 #391

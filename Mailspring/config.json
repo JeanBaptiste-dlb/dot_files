@@ -1,0 +1,172 @@
+{
+  "*": {
+    "env": "production",
+    "core": {
+      "themes": [
+        "ui-light"
+      ],
+      "disabledPackages": [
+        "message-view-on-github",
+        "personal-level-indicators",
+        "phishing-detection",
+        "nylas-private-salesforce",
+        "github-contact-card",
+        "keybase",
+        "composer-markdown",
+        "composer-scheduler",
+        "composer-mail-merge",
+        "send-and-archive",
+        "main-calendar"
+      ],
+      "workspace": {
+        "mode": "split"
+      },
+      "keymapTemplate": "Outlook",
+      "tutorial": {
+        "seen": [
+          "ThreadSearchBar",
+          "ActivityListButton"
+        ]
+      },
+      "theme": "ui-dark"
+    },
+    "identity": {
+      "id": "e43fc92d-9a16-4419-bfe3-76c87bae3fe1",
+      "firstName": "Jean-Baptiste",
+      "lastName": "de la Broise",
+      "emailAddress": "jeanbaptistedelabroise@gmail.com",
+      "object": "identity",
+      "createdAt": "2020-09-16T16:57:24.000Z",
+      "stripePlan": "Basic",
+      "stripePlanEffective": "Basic",
+      "stripeCustomerId": "cus_I28D1JGdDtG3bu",
+      "stripePeriodEnd": "2020-10-16T16:57:24.000Z",
+      "featureUsage": {
+        "snooze": {
+          "quota": 15,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-later": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "thread-sharing": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "link-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "open-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "contact-profiles": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-reminders": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "translation": {
+          "quota": 50,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "7a647fac",
+        "metadata": [],
+        "name": "delabroi",
+        "provider": "outlook",
+        "emailAddress": "jean-baptiste.delabroise@epfl.ch",
+        "settings": {
+          "imap_allow_insecure_ssl": false,
+          "imap_host": "ewa.epfl.ch",
+          "imap_port": 993,
+          "imap_security": "SSL / TLS",
+          "imap_username": "delabroi",
+          "smtp_allow_insecure_ssl": false,
+          "smtp_host": "mail.epfl.ch",
+          "smtp_port": 465,
+          "smtp_security": "SSL / TLS",
+          "smtp_username": "delabroi"
+        },
+        "label": "jean-baptiste.delabroise@epfl.ch",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "syncError": {
+          "code": 1,
+          "error": {
+            "message": "ErrorIdentityMissingFields",
+            "stack": "Error: ErrorIdentityMissingFields\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:282:21)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)"
+          },
+          "signal": null
+        },
+        "authedAt": 1601036275.264,
+        "__cls": "Account"
+      },
+      {
+        "id": "6c83273c",
+        "metadata": [],
+        "name": "Jean-Baptiste de la Broise",
+        "provider": "gmail",
+        "emailAddress": "jeanbaptistedelabroise@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "jeanbaptistedelabroise@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "jeanbaptistedelabroise@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "jeanbaptistedelabroise@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "syncError": {
+          "code": 134,
+          "error": {
+            "stack": "Error: null2584 [2020-09-29 17:16:18.184] [background] [critical] \n***\n*** Mailspring Sync \n*** An exception occurred during program execution: \n*** {\"debuginfo\":\"https://www.googleapis.com/oauth2/v4/token RETURNED {\\n  \\\"error\\\": \\\"invalid_grant\\\",\\n  \\\"error_description\\\": \\\"Bad Request\\\"\\n}\",\"key\":\"Invalid Response Code: 400\",\"retryable\":false,\"what\":\"std::exception\"}\n***\n\n2584 [2020-09-29 17:16:18.185] [background] [critical] *** Stack trace (line numbers are approximate):\n*** ??:?        ValidateRequestResp(CURLcode, void*, string)\n*** ??:?        PerformRequest(void*)\n*** ??:?        PerformJSONRequest(void*)\n*** ??:?        MakeGmailOAuthRequest(string, string)\n*** ??:?        XOAuth2TokenManager::partsForAccount(shared_ptr)\n*** ??:?        MailUtils::configureSessionForAccount(mailcore::IMAPSession&, shared_ptr)\n*** ??:?        SyncWorker::configure()\n*** ??:?        runBackgroundSyncWorker()\n*** main.cpp:?  main::{lambda()#3}::operator()() const\n*** main.cpp:?  _Bind_simple::operator()()\n*** main.cpp:?  thread::_Impl::_M_run()\n*** thread.o:?  execute_native_thread_routine()\n***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 5:  2584 Aborted                 (core dumped) SASL_PATH=\"$SCRIPTPATH\" LD_LIBRARY_PATH=\"$SCRIPTPATH;$LD_LIBRARY_PATH\" \"$SCRIPTPATH/mailsync.bin\" \"$@\"\n\n    at ChildProcess.onStreamCloseOrExit (file:///tmp/nylas-build/electron-packager/linux-x64/mailspring-linux-x64/resources/app/src/mailsync-process.ts:290:17)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)",
+            "message": "null2584 [2020-09-29 17:16:18.184] [background] [critical] \n***\n*** Mailspring Sync \n*** An exception occurred during program execution: \n*** {\"debuginfo\":\"https://www.googleapis.com/oauth2/v4/token RETURNED {\\n  \\\"error\\\": \\\"invalid_grant\\\",\\n  \\\"error_description\\\": \\\"Bad Request\\\"\\n}\",\"key\":\"Invalid Response Code: 400\",\"retryable\":false,\"what\":\"std::exception\"}\n***\n\n2584 [2020-09-29 17:16:18.185] [background] [critical] *** Stack trace (line numbers are approximate):\n*** ??:?        ValidateRequestResp(CURLcode, void*, string)\n*** ??:?        PerformRequest(void*)\n*** ??:?        PerformJSONRequest(void*)\n*** ??:?        MakeGmailOAuthRequest(string, string)\n*** ??:?        XOAuth2TokenManager::partsForAccount(shared_ptr)\n*** ??:?        MailUtils::configureSessionForAccount(mailcore::IMAPSession&, shared_ptr)\n*** ??:?        SyncWorker::configure()\n*** ??:?        runBackgroundSyncWorker()\n*** main.cpp:?  main::{lambda()#3}::operator()() const\n*** main.cpp:?  _Bind_simple::operator()()\n*** main.cpp:?  thread::_Impl::_M_run()\n*** thread.o:?  execute_native_thread_routine()\n***\n\n/usr/share/mailspring/resources/app.asar.unpacked/mailsync: line 5:  2584 Aborted                 (core dumped) SASL_PATH=\"$SCRIPTPATH\" LD_LIBRARY_PATH=\"$SCRIPTPATH;$LD_LIBRARY_PATH\" \"$SCRIPTPATH/mailsync.bin\" \"$@\"\n"
+          },
+          "signal": null
+        },
+        "authedAt": 1601402544.299,
+        "__cls": "Account"
+      }
+    ],
+    "accountsVersion": 37
+  }
+}

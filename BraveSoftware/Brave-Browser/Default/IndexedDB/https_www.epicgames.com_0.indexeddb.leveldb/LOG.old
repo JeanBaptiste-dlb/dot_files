@@ -1,0 +1,5 @@
+2020/09/24-20:35:28.053 2e5f5 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.epicgames.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/24-20:36:53.431 230c4 Level-0 table #5: started
+2020/09/24-20:36:53.434 230c4 Level-0 table #5: 42140 bytes OK
+2020/09/24-20:36:53.436 230c4 Delete type=0 #3
+2020/09/24-20:36:53.436 230c4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

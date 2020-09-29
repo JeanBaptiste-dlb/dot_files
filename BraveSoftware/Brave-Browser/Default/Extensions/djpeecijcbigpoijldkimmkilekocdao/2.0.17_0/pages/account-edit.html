@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="popup-wrapper" class="account-edit-page">
+        <div class="justify-content-between">
+            <div>
+                <a href="../pages/account-view.html" class="backward-link">
+                    <img src="../images/arrow-back-icon.svg" />
+                    <span data-scribens-i18n="modify_my_account"></span>
+                </a>
+            </div>
+
+            <form id="account-form" data-name="account-form">
+                <div class="form-group">
+                    <label data-scribens-i18n="username"></label>
+                    <input type="text" id="account-name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label data-scribens-i18n="email"></label>
+                    <input type="email" id="account-email" name="email">
+                </div>
+
+                <div class="form-group position-relative mb-5">
+                    <label data-scribens-i18n="password"></label>
+                    <input type="password" id="account-password" name="password">
+
+                    <div class="requirements shadow-box-rounded">
+                        <p class="text-bold" data-scribens-i18n="password_requirements"></p>
+
+                        <div data-validation=".{6,}">
+                            <span>-</span> <span data-scribens-i18n="required_min_chars"></span>
+                        </div>
+                        <div data-validation="[a-z]">
+                            <span>-</span> <span data-scribens-i18n="required_lowercase"></span>
+                        </div>
+                        <div data-validation="[A-Z]">
+                            <span>-</span> <span data-scribens-i18n="required_uppercase"></span>
+                        </div>
+                        <div data-validation="[!@#$%^&*_=+-]">
+                            <span>-</span> <span data-scribens-i18n="required_special_char"></span>
+                        </div>
+                        <div data-validation="['\|\\,]" data-string-raw="true" data-reverse-result="true">
+                            <span>√</span> <span data-scribens-i18n="must_not_contains"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <button type="button" id="button-account-save" data-scribens-i18n="save"></button>
+        </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

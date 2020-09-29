@@ -1,4 +1,30 @@
 {
     "entries" : {
+        "Enter Collection Name 1" : {
+            "name" : "Enter Collection Name 1",
+            "icon" : null,
+            "comment" : null,
+            "index" : 1,
+            "requires-update" : false,
+            "active" : false,
+            "children" : {
+            },
+            "families" : [
+            ],
+            "size" : 0
+        },
+        "Enter Collection Name" : {
+            "name" : "Enter Collection Name",
+            "icon" : null,
+            "comment" : null,
+            "index" : 0,
+            "requires-update" : false,
+            "active" : false,
+            "children" : {
+            },
+            "families" : [
+            ],
+            "size" : 0
+        }
     }
 }

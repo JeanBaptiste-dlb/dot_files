@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//Meetup Events v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Events - Become confident in English ★ TripMeeters
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200929T141923Z
+DTSTART;TZID=Europe/Paris:20200930T190000
+DTEND;TZID=Europe/Paris:20200930T200000
+STATUS:CONFIRMED
+SUMMARY:LAST🇵🇹 Conversation Guidée : Pratique PORTUGAIS avec Paula ★ Tr
+ ipMeeters™
+DESCRIPTION:Become confident in English ★ TripMeeters\nWednesday\, Septem
+ ber 30 at 7:00 PM\n\n===★ POUR PARTICIPER ET AVOIR LE LIEN DU VISIO ★===
+  ★ Réservation obligatoire (seulement 5 places par session):Réserve ton 
+ ticket (Gratuit la 1ère foi...\n\nhttps://www.meetup.com/tripmeeters-eng
+ lish-language-exchange/events/273590426/
+ORGANIZER;CN=Meetup Reminder:MAILTO:info@meetup.com
+CLASS:PUBLIC
+CREATED:20200929T141851Z
+GEO:48.86;2.33
+LOCATION:Online event
+URL:https://www.meetup.com/tripmeeters-english-language-exchange/events/2
+ 73590426/
+SEQUENCE:1
+LAST-MODIFIED:20200929T141851Z
+UID:event_273590426@meetup.com
+END:VEVENT
+END:VCALENDAR

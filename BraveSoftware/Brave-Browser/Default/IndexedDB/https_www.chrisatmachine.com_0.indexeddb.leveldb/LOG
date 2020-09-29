@@ -1,0 +1,15 @@
+2020/09/21-00:56:23.760 149fc Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-00:56:23.760 149fc Recovering log #4
+2020/09/21-00:56:23.760 149fc Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/000004.log 
+2020/09/21-00:56:55.777 8f0d Level-0 table #8: started
+2020/09/21-00:56:55.782 8f0d Level-0 table #8: 887 bytes OK
+2020/09/21-00:56:55.784 8f0d Delete type=0 #4
+2020/09/21-00:56:55.785 8f0d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/21-00:56:55.785 8f0d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01*\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00N\x00e\x00o\x00v\x00i\x00m\x00/\x002\x003\x00-\x00f\x00a\x00r\x00-\x00f\x00i\x00n\x00d\x00-\x00a\x00n\x00d\x00-\x00r\x00e\x00p\x00l\x00a\x00c\x00e\x00/' @ 134 : 1
+2020/09/21-00:56:55.785 8f0d Compacting 1@1 + 1@2 files
+2020/09/21-00:56:55.787 8f0d Generated table #9@1: 34 keys, 1365 bytes
+2020/09/21-00:56:55.787 8f0d Compacted 1@1 + 1@2 files => 1365 bytes
+2020/09/21-00:56:55.790 8f0d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/21-00:56:55.790 8f0d Delete type=2 #5
+2020/09/21-00:56:55.790 8f0d Delete type=2 #8
+2020/09/21-00:56:55.791 8f0d Manual compaction at level-1 from '\x00\x01\x01\x02\x01*\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00N\x00e\x00o\x00v\x00i\x00m\x00/\x002\x003\x00-\x00f\x00a\x00r\x00-\x00f\x00i\x00n\x00d\x00-\x00a\x00n\x00d\x00-\x00r\x00e\x00p\x00l\x00a\x00c\x00e\x00/' @ 134 : 1 .. (end); will stop at (end)

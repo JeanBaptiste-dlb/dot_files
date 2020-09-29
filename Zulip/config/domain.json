@@ -1,0 +1,9 @@
+{
+    "domains": [
+        {
+            "icon": "/home/cormak/.config/Zulip/server-icons/1150808448.png",
+            "url": "https://ada2020zulip.epfl.ch",
+            "alias": "ADA 2020"
+        }
+    ]
+}

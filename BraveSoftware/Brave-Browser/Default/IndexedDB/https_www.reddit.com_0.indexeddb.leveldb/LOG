@@ -1,15 +1,15 @@
-2020/08/29-10:13:31.362 14442 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/29-10:13:31.362 14442 Recovering log #11
-2020/08/29-10:13:31.362 14442 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000011.log 
-2020/08/29-10:18:47.649 1439e Level-0 table #16: started
-2020/08/29-10:18:47.653 1439e Level-0 table #16: 1773 bytes OK
-2020/08/29-10:18:47.656 1439e Delete type=0 #11
-2020/08/29-10:18:47.656 1439e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/08/29-10:18:47.656 1439e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 85 : 1
-2020/08/29-10:18:47.656 1439e Compacting 1@1 + 1@2 files
-2020/08/29-10:18:47.659 1439e Generated table #17@1: 19 keys, 1302 bytes
-2020/08/29-10:18:47.659 1439e Compacted 1@1 + 1@2 files => 1302 bytes
-2020/08/29-10:18:47.662 1439e compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/08/29-10:18:47.662 1439e Delete type=2 #16
-2020/08/29-10:18:47.662 1439e Delete type=2 #13
-2020/08/29-10:18:47.662 1439e Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 85 : 1 .. (end); will stop at (end)
+2020/08/31-01:17:20.181 8a79 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/31-01:17:20.182 8a79 Recovering log #19
+2020/08/31-01:17:20.182 8a79 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000019.log 
+2020/08/31-01:17:59.969 8bf3 Level-0 table #24: started
+2020/08/31-01:17:59.971 8bf3 Level-0 table #24: 1290 bytes OK
+2020/08/31-01:17:59.974 8bf3 Delete type=0 #19
+2020/08/31-01:17:59.974 8bf3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/31-01:17:59.974 8bf3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 121 : 1
+2020/08/31-01:17:59.974 8bf3 Compacting 1@1 + 1@2 files
+2020/08/31-01:17:59.976 8bf3 Generated table #25@1: 20 keys, 1289 bytes
+2020/08/31-01:17:59.976 8bf3 Compacted 1@1 + 1@2 files => 1289 bytes
+2020/08/31-01:17:59.978 8bf3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/31-01:17:59.978 8bf3 Delete type=2 #21
+2020/08/31-01:17:59.978 8bf3 Delete type=2 #24
+2020/08/31-01:17:59.978 8bf3 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 121 : 1 .. (end); will stop at (end)

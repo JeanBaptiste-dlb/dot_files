@@ -1,0 +1,5 @@
+2020/09/21-00:55:46.024 149fc Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-00:56:18.301 8f0d Level-0 table #5: started
+2020/09/21-00:56:18.302 8f0d Level-0 table #5: 2239 bytes OK
+2020/09/21-00:56:18.304 8f0d Delete type=0 #3
+2020/09/21-00:56:18.305 8f0d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

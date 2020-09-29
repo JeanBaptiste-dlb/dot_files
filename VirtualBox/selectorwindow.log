@@ -1,0 +1,19 @@
+00:00:00.528079 VirtualBox GUI VM Selector Window 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
+00:00:00.528082 Log opened 2020-09-29T14:58:19.976544000Z
+00:00:00.528083 Build Type: release
+00:00:00.528085 OS Product: Linux
+00:00:00.528086 OS Release: 5.8.6-1-MANJARO
+00:00:00.528088 OS Version: #1 SMP PREEMPT Thu Sep 3 14:19:36 UTC 2020
+00:00:00.528113 DMI Product Name: Inspiron 5482
+00:00:00.528122 DMI Product Version: 
+00:00:00.528127 Firmware type: UEFI
+00:00:00.529130 Secure Boot: Disabled
+00:00:00.529175 Host RAM: 7638MB (7.4GB) total, 6134MB (5.9GB) available
+00:00:00.529178 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.529179 Process ID: 40791
+00:00:00.529180 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.529208 Qt version: 5.15.0
+00:00:00.564867 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.297246 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.927562 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 957x539 x 75x50
+00:00:05.927583 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 957x539 x 75x50

@@ -1,0 +1,15 @@
+2020/09/25-19:49:31.799 110fe6 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/25-19:49:31.799 110fe6 Recovering log #7
+2020/09/25-19:49:31.800 110fe6 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/000007.log 
+2020/09/25-19:49:37.402 111182 Level-0 table #12: started
+2020/09/25-19:49:37.408 111182 Level-0 table #12: 8330 bytes OK
+2020/09/25-19:49:37.410 111182 Delete type=0 #7
+2020/09/25-19:49:37.410 111182 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/25-19:49:37.411 111182 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x12\x00A\x00T\x00V\x00W\x00e\x00b\x00P\x00l\x00a\x00y\x00e\x00r\x00-\x00f\x00r\x00-\x00F\x00R' @ 164 : 1
+2020/09/25-19:49:37.411 111182 Compacting 1@1 + 1@2 files
+2020/09/25-19:49:37.413 111182 Generated table #13@1: 48 keys, 8037 bytes
+2020/09/25-19:49:37.413 111182 Compacted 1@1 + 1@2 files => 8037 bytes
+2020/09/25-19:49:37.415 111182 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/25-19:49:37.416 111182 Delete type=2 #9
+2020/09/25-19:49:37.416 111182 Delete type=2 #12
+2020/09/25-19:49:37.416 111182 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x12\x00A\x00T\x00V\x00W\x00e\x00b\x00P\x00l\x00a\x00y\x00e\x00r\x00-\x00f\x00r\x00-\x00F\x00R' @ 164 : 1 .. (end); will stop at (end)

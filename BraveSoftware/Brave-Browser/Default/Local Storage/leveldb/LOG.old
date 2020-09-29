@@ -1,6 +1,3 @@
-2020/08/29-22:37:30.662 9f8 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/08/29-22:37:30.663 9f8 Recovering log #26
-2020/08/29-22:37:30.663 9f8 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000026.log 
-2020/08/29-22:39:49.375 b5a Level-0 table #30: started
-2020/08/29-22:39:49.380 b5a Level-0 table #30: 11260 bytes OK
-2020/08/29-22:39:49.383 b5a Delete type=0 #26
+2020/09/29-14:59:43.876 a068 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2020/09/29-14:59:43.876 a068 Recovering log #397
+2020/09/29-14:59:43.876 a068 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000397.log 

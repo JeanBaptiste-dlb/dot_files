@@ -1,0 +1,5 @@
+2020/09/27-22:06:37.921 a125 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fnac.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/27-22:06:40.042 a2e3 Level-0 table #5: started
+2020/09/27-22:06:40.048 a2e3 Level-0 table #5: 819 bytes OK
+2020/09/27-22:06:40.052 a2e3 Delete type=0 #3
+2020/09/27-22:06:40.052 a2e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

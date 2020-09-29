@@ -1,5 +1,5 @@
 {
-   "checksum": "59bacc5957c1d4c4ec2550dc2e201717",
+   "checksum": "9c2a1de8223c4c29895e29256d99a6cc",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -9,9 +9,86 @@
             "name": "YouTube",
             "type": "url",
             "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13243365506301709",
+            "guid": "9a1fe6f0-fb03-43bf-b5e1-0bc94a328c1b",
+            "id": "7",
+            "name": "Outlook",
+            "type": "url",
+            "url": "https://ewa.epfl.ch/owa/auth/logon.aspx?url=https%3a%2f%2fewa.epfl.ch%2fowa%2f&reason=0"
+         }, {
+            "date_added": "13244124154040474",
+            "guid": "a66d8744-f6df-4993-ba5f-5ab965139b6f",
+            "id": "9",
+            "name": "Memento Academic Calendar | Academic Calendar - EPFL",
+            "type": "url",
+            "url": "https://memento.epfl.ch/academic-calendar/?period=180"
+         }, {
+            "date_added": "13244127184259176",
+            "guid": "aaf26b0e-eaa1-4bc8-a2d9-feb55fc3fd35",
+            "id": "10",
+            "name": "Data Science | Master Cycle 2020-2021| EPFL",
+            "type": "url",
+            "url": "https://edu.epfl.ch/studyplan/en/master/data-science"
+         }, {
+            "date_added": "13244127690597350",
+            "guid": "67a85f57-5718-40d5-99a2-67631c8cb1d5",
+            "id": "11",
+            "name": "Moodle: Course categories",
+            "type": "url",
+            "url": "https://moodle.epfl.ch/course/index.php"
+         }, {
+            "date_added": "13244127756772468",
+            "guid": "2874deaf-57e9-4834-bf7a-2b1bfdbe0512",
+            "id": "12",
+            "name": "Applied Data Analysis (ADA)",
+            "type": "url",
+            "url": "https://dlab.epfl.ch/teaching/fall2020/cs401/"
+         }, {
+            "date_added": "13244661610525651",
+            "guid": "55bdc9d6-bc80-49f3-8165-892388081672",
+            "id": "14",
+            "name": "GitHub - epfml/ML_course: EPFL Machine Learning Course, Fall 2019",
+            "type": "url",
+            "url": "https://github.com/epfml/ML_course"
+         }, {
+            "date_added": "13244676706703809",
+            "guid": "ffe0409f-f6de-43b9-8722-47edf23d5f75",
+            "id": "15",
+            "name": "ML_course/lectures/01 at master · epfml/ML_course · GitHub",
+            "type": "url",
+            "url": "https://github.com/epfml/ML_course/tree/master/lectures/01"
+         }, {
+            "date_added": "13245256270655904",
+            "guid": "1d9cd024-b571-4f74-b31f-338e1577e41f",
+            "id": "17",
+            "name": "papers - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1pzSDbLumxhaxRahxdFX72TupOxUjVne1"
+         }, {
+            "date_added": "13245267481932653",
+            "guid": "3ce182d5-649c-40d7-9eba-0fd056b5a1a2",
+            "id": "18",
+            "name": "ML Course EPFL CS-433 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/playlist?list=PL4O4bXkI-fAfpmj1TS6_e0ag9sDk3Xrw-"
+         }, {
+            "date_added": "13245285986610527",
+            "guid": "2a3f5a66-7e18-4845-ada6-023f328ac56c",
+            "id": "19",
+            "name": "Matrix Calculus",
+            "type": "url",
+            "url": "http://www.matrixcalculus.org/"
+         }, {
+            "date_added": "13245761334430153",
+            "guid": "746213e9-a163-4838-8182-e76c9e2a9caa",
+            "id": "21",
+            "name": "Moodle 2020-2021",
+            "type": "url",
+            "url": "https://moodle.epfl.ch/"
          } ],
          "date_added": "13243009795867870",
-         "date_modified": "13243011995058367",
+         "date_modified": "13245761334430153",
          "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "Favoris",

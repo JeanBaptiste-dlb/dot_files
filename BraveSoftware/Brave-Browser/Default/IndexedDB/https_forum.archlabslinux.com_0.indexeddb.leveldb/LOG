@@ -1,0 +1,5 @@
+2020/08/31-01:20:39.985 8e71 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/31-01:23:21.262 8bf3 Level-0 table #5: started
+2020/08/31-01:23:21.273 8bf3 Level-0 table #5: 117424 bytes OK
+2020/08/31-01:23:21.276 8bf3 Delete type=0 #3
+2020/08/31-01:23:21.276 8bf3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

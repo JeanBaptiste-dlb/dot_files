@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="popup-wrapper" class="login-page">
+        <div class="justify-content-between">
+            <div>
+                <div class="logo logo-v">
+                    <img src="../images/logo-icon.svg">
+                    <img src="../images/logo-text.svg">
+                </div>
+
+                <div class="text-center text-blue mb-3" data-scribens-i18n="html_0001"></div>
+            </div>
+
+            <form class="login-form" data-name="login-form">
+                <div class="form-group">
+                    <label for="email-form" data-scribens-i18n="email"></label>
+                    <input type="email" id="email-form" name="email" pattern=".+@.+\.\w+" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="password-form" data-scribens-i18n="password"></label>
+                    <input type="password" id="password-form" name="password" required />
+                </div>
+
+                <button type="button" id="button-login" data-scribens-i18n="login"></button>
+            </form>
+
+            <div class="text-center text-gray">
+                <span data-scribens-i18n="forgot_your_password"></span> <a href="password-recovery.html" data-scribens-i18n="resend"></a>
+            </div>
+            <div class="text-center text-gray mb-3">
+                <span data-scribens-i18n="no_account_yet"></span> <a href="register.html" data-scribens-i18n="create_your_account"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

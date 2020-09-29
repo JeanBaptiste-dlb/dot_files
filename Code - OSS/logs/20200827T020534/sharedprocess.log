@@ -1,8 +1,0 @@
-[2020-08-27 02:05:37.744] [sharedprocess] [info] main {"machineId":"9069008fb1f284a390809a46b645ac2746450ccf158ca85ed32a698e09cbfd90","windowId":2}
-[2020-08-27 02:06:17.752] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-08-27 02:13:38.796] [sharedprocess] [info] Installing extension: medzhidov.font-awesome-codes-html
-[2020-08-27 02:13:39.719] [sharedprocess] [info] Downloaded extension: medzhidov.font-awesome-codes-html /home/cormak/.config/Code - OSS/CachedExtensionVSIXs/medzhidov.font-awesome-codes-html-0.0.7
-[2020-08-27 02:13:39.769] [sharedprocess] [info] Extracted extension to /home/cormak/.vscode-oss/extensions/.medzhidov.font-awesome-codes-html-0.0.7: medzhidov.font-awesome-codes-html
-[2020-08-27 02:13:39.769] [sharedprocess] [info] Renamed to /home/cormak/.vscode-oss/extensions/medzhidov.font-awesome-codes-html-0.0.7
-[2020-08-27 02:13:39.770] [sharedprocess] [info] Installation completed. medzhidov.font-awesome-codes-html
-[2020-08-27 02:13:39.773] [sharedprocess] [info] Extensions installed successfully: medzhidov.font-awesome-codes-html

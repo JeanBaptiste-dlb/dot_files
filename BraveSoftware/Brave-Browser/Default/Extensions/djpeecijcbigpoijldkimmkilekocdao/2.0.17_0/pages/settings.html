@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="popup-wrapper" class="settings-page">
+        <div>
+            <div>
+                <a href="../pages/menu.html" class="backward-link">
+                    <img src="../images/arrow-back-icon.svg" />
+                    <span data-scribens-i18n="settings"></span>
+                </a>
+            </div>
+
+            <form id="settings-form" data-name="settings-form">
+                <div class="d-flex flex-column">
+                    <div id="settings-block-french">
+                        <div class="text-uppercase mb-1 text-blue text-small" data-scribens-i18n="french"></div>
+
+                        <div data-role="form" class="mb-3">
+                            <div class="form-group">
+                                <label data-scribens-i18n="Genre_Je_label"></label>
+                                <div class="select-container">
+                                    <select name="Genre_Je">
+                                        <option value="0" data-scribens-i18n="Genre_Undefined"></option>
+                                        <option value="1" data-scribens-i18n="Genre_Masculine"></option>
+                                        <option value="2" data-scribens-i18n="Genre_Feminine"></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label data-scribens-i18n="Genre_Tu_label"></label>
+                                <div class="select-container">
+                                    <select name="Genre_Tu">
+                                        <option value="0" data-scribens-i18n="Genre_Undefined"></option>
+                                        <option value="1" data-scribens-i18n="Genre_Masculine"></option>
+                                        <option value="2" data-scribens-i18n="Genre_Feminine"></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label data-scribens-i18n="Genre_Nous_label"></label>
+                                <div class="select-container">
+                                    <select name="Genre_Nous">
+                                        <option value="0" data-scribens-i18n="Genre_Undefined"></option>
+                                        <option value="1" data-scribens-i18n="Genre_Masculine"></option>
+                                        <option value="2" data-scribens-i18n="Genre_Feminine"></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label data-scribens-i18n="Genre_Vous_label"></label>
+                                <div class="select-container">
+                                    <select name="Genre_Vous">
+                                        <option value="0" data-scribens-i18n="Genre_Undefined">Indéfini</option>
+                                        <option value="1" data-scribens-i18n="Genre_Masculine_singular"></option>
+                                        <option value="2" data-scribens-i18n="Genre_Feminine_singular"></option>
+                                        <option value="3" data-scribens-i18n="Genre_Masculine_plural"></option>
+                                        <option value="4" data-scribens-i18n="Genre_Feminine_plural"></option>
+                                        <option value="5" data-scribens-i18n="Genre_Masculine_or_feminine_singular"></option>
+                                        <option value="6" data-scribens-i18n="Genre_Masculine_or_feminine_plural"></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label data-scribens-i18n="Genre_On_label"></label>
+                                <div class="select-container">
+                                    <select name="Genre_On">
+                                        <option value="0" data-scribens-i18n="Genre_Undefined"></option>
+                                        <option value="1" data-scribens-i18n="Genre_Masculine_plural"></option>
+                                        <option value="2" data-scribens-i18n="Genre_Feminine_plural"></option>
+                                        <option value="3" data-scribens-i18n="Genre_Masculine_or_feminine_plural"></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group d-flex justify-content-between align-items-center">
+                                <div data-scribens-i18n="Spelling_reform_of_1990_label"></div>
+                                <div class="apple-switch-container">
+                                    <input class="apple-switch" name="RefOrth" type="checkbox">
+                                </div>
+                            </div>
+
+                            <div class="form-group d-flex justify-content-between align-items-center">
+                                <div data-scribens-i18n="ShowUPSol_label"></div>
+                                <div class="apple-switch-container">
+                                    <input class="apple-switch" name="ShowUPSol" type="checkbox" checked>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="settings-block-english">
+                        <div class="text-uppercase mb-1 text-blue text-small" data-scribens-i18n="english"></div>
+
+                        <div data-role="form" class="mb-3">
+                            <div class="form-group">
+                                <label data-scribens-i18n="UsBr_label"></label>
+                                <div class="select-container">
+                                    <select name="UsBr">
+                                        <option value="-1" data-scribens-i18n="UsBr_option_01"></option>
+                                        <option value="0" data-scribens-i18n="UsBr_option_02"></option>
+                                        <option value="1" data-scribens-i18n="UsBr_option_03"></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-uppercase mb-1 text-blue text-small" data-scribens-i18n="extension"></div>
+
+                <div data-role="form" class="mb-3">
+                    <div class="form-group d-flex justify-content-between align-items-center">
+                        <div data-scribens-i18n="AutoCheck_label"></div>
+                        <div class="apple-switch-container">
+                            <input class="apple-switch" name="AutoCheck" type="checkbox">
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex justify-content-between align-items-center">
+                        <div data-scribens-i18n="CorrectionSingleLine_label"></div>
+                        <div class="apple-switch-container">
+                            <input class="apple-switch" name="CorrectionSingleLine" type="checkbox">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label data-scribens-i18n="DefaultLanguage_label"></label>
+                        <div class="select-container">
+                            <select name="DefaultLanguage">
+                                <option value="en" data-scribens-i18n="english"></option>
+                                <option value="fr" data-scribens-i18n="french"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

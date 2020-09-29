@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="popup-wrapper" class="register-page">
+        <div class="justify-content-between">
+            <div>
+                <div class="logo logo-v">
+                    <img src="../images/logo-icon.svg">
+                    <img src="../images/logo-text.svg">
+                </div>
+
+                <div class="text-center text-blue mb-3" data-scribens-i18n="html_0001"></div>
+            </div>
+
+            <div class="text-center text-blue mb-5">
+                <div class="text-gray" data-scribens-i18n="html_0002"></div>
+            </div>
+
+            <form class="register-form" data-name="register-form">
+                <div class="form-group">
+                    <label for="name-form" data-scribens-i18n="username"></label>
+                    <input type="text" id="name-form" name="name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email-form" data-scribens-i18n="email"></label>
+                    <input type="email" id="email-form" name="email" pattern=".+@.+\.\w+" required />
+                </div>
+
+                <div class="form-group position-relative">
+                    <label for="password-form" data-scribens-i18n="password"></label>
+                    <input type="password" id="password-form" name="password"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_=+-])(?!.*['\|\\,]).{6,}$" required />
+
+                    <div class="requirements shadow-box-rounded">
+                        <p class="text-bold" data-scribens-i18n="password_requirements"></p>
+
+                        <div data-validation=".{6,}">
+                            <span>-</span> <span data-scribens-i18n="required_min_chars"></span>
+                        </div>
+                        <div data-validation="[a-z]">
+                            <span>-</span> <span data-scribens-i18n="required_lowercase"></span>
+                        </div>
+                        <div data-validation="[A-Z]">
+                            <span>-</span> <span data-scribens-i18n="required_uppercase"></span>
+                        </div>
+                        <div data-validation="[!@#$%^&*_=+-]">
+                            <span>-</span> <span data-scribens-i18n="required_special_char"></span>
+                        </div>
+                        <div data-validation="['\|\\,]" data-string-raw="true" data-reverse-result="true">
+                            <span>√</span> <span data-scribens-i18n="must_not_contains"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" id="button-register" data-scribens-i18n="create_your_account"></button>
+            </form>
+
+            <div class="text-center text-gray mb-3">
+                <span data-scribens-i18n="already_have_account"></span> <a href="login.html" data-scribens-i18n="login"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+    "appLanguage": null,
+    "autoHideMenubar": false,
+    "errorReporting": true,
+    "useSystemProxy": false,
+    "trayIcon": true,
+    "silent": false,
+    "startMinimized": false,
+    "useManualProxy": false,
+    "autoUpdate": true,
+    "showSidebar": true,
+    "badgeOption": true,
+    "startAtLogin": false,
+    "enableSpellchecker": true,
+    "showNotification": true,
+    "betaUpdate": false,
+    "customCSS": false,
+    "lastActiveTab": 0,
+    "dnd": false,
+    "dndPreviousSettings": {
+        "showNotification": true,
+        "silent": false
+    },
+    "downloadsPath": "/home/cormak/Téléchargements",
+    "quitOnClose": false,
+    "promptDownload": false,
+    "spellcheckerLanguages": [
+        "en-US"
+    ]
+}

@@ -1,0 +1,264 @@
+{
+   "0_1_code": {
+      "message": "$COUNT$ Code",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "_frais_de_port_inclus_": {
+      "message": "(frais de port inclus)"
+   },
+   "_x_chez_un_autre_marchand": {
+      "message": "\u003Cspan style=' color: rgb(255, 126, 120); font-size: 18px; font-weight: bold;'>- \u003Cspan class='amount'>30\u003C/span> €\u003C/span> chez un autre marchand !"
+   },
+   "_x_des_derniers_achats_ont_donne_droit_a_un_bonus_surprise": {
+      "message": "\u003Cspan class='value'>80\u003C/span>% des derniers achats ont donné droit à un bonus surprise"
+   },
+   "a_vous_de_jouer__cliquez_pour_essayer": {
+      "message": "A vous de jouer, cliquez pour essayer"
+   },
+   "activation": {
+      "message": "Activation"
+   },
+   "activer_le_bonus": {
+      "message": "Activer le bonus"
+   },
+   "aidez_vos_amis_a_economiser_du_temps_et_de_l_argent": {
+      "message": "Aidez vos amis à économiser du temps et de l'argent."
+   },
+   "annuler": {
+      "message": "Annuler"
+   },
+   "appliquer_le_code": {
+      "message": "Appliquer le code !"
+   },
+   "aucun_bonus_n_est_actuellement_disponible_pour_cette_boutique": {
+      "message": "Aucun bonus n'est actuellement disponible pour cette boutique"
+   },
+   "aucun_code_promo_disponible": {
+      "message": "aucun code promo disponible"
+   },
+   "bonus": {
+      "message": "Bonus"
+   },
+   "bonus__active": {
+      "message": "Bonus Activé"
+   },
+   "bonus_active": {
+      "message": "Bonus activé"
+   },
+   "bonus_surprise": {
+      "message": "Bonus surprise"
+   },
+   "boouuum": {
+      "message": "BOOUUUM !"
+   },
+   "boutiques_les_moins_cheres": {
+      "message": "Boutiques les moins chères"
+   },
+   "categorie": {
+      "message": "Catégorie"
+   },
+   "ce_vol": {
+      "message": "ce vol"
+   },
+   "cet_hotel": {
+      "message": "cet hôtel"
+   },
+   "cette_page_ne_permet_pas_d_entrer_un_code_promo": {
+      "message": "Cette page ne permet pas d'entrer un code promo"
+   },
+   "codes": {
+      "message": "Codes"
+   },
+   "codes_promo_disponibles_pour_cette_boutique": {
+      "message": "codes promo disponibles pour cette boutique"
+   },
+   "connexion": {
+      "message": "Connexion"
+   },
+   "croisez_autant_de_doigts_que_vous_le_pouvez": {
+      "message": "Croisez autant de doigts que vous le pouvez !"
+   },
+   "des_codes_ont_fonctionne_aujourd_hui_sur_ces_boutiques": {
+      "message": "Des codes ont fonctionné aujourd'hui sur ces boutiques"
+   },
+   "description": {
+      "message": "Wanteeed permet d'appliquer automatiquement les meilleures réductions sur internet pour des centaines de sites marchands"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "et_ce_n_est_peut_etre_pas_fini": {
+      "message": "et ce n'est peut être pas fini ..."
+   },
+   "exclusions": {
+      "message": "exclusions"
+   },
+   "format_invalide": {
+      "message": "Format Invalide"
+   },
+   "hausse_du_bonus_aujourd_hui": {
+      "message": "Hausse du bonus aujourd'hui !"
+   },
+   "il_n_y_a_pas_de_code_promo_actuellement_pour_ce_site": {
+      "message": "Il n'y a pas de code promo actuellement pour ce site"
+   },
+   "il_y_a_x_codes_promo_valides_pour_ce_site": {
+      "message": "Il y a $VOUCHER_COUNT$ codes promo valides pour ce site",
+      "placeholders": {
+         "voucher_count": {
+            "content": "$1"
+         }
+      }
+   },
+   "j_ai_deja_un_compte": {
+      "message": "J'ai déjà un compte"
+   },
+   "j_en_profite": {
+      "message": "J'en profite"
+   },
+   "je_vote": {
+      "message": "je vote !"
+   },
+   "jusqu_a": {
+      "message": "jusqu'à"
+   },
+   "jusqu_a_x_": {
+      "message": "\u003Cspan style='font-size:11px;'>jusqu'à\u003C/span>\n\u003Cspan class='red-text value text-lighten-1'>2.6%\u003C/span>"
+   },
+   "le_code_promo_a_ete_applique": {
+      "message": "Le code promo a été appliqué !"
+   },
+   "le_meilleur_code_promo_sera_automatiquement_applique_lors_de_votre_commande_sur_ce_site": {
+      "message": "Le meilleur code promo sera automatiquement appliqué lors de votre commande sur ce site"
+   },
+   "les_boutiques": {
+      "message": "Les boutiques"
+   },
+   "les_codes_promo_automatiques_ne_sont_pas_encore_disponibles_sur_cette_boutique": {
+      "message": "Les codes promo automatiques ne sont pas encore disponibles sur cette boutique :("
+   },
+   "mail_ou_mot_de_passe_incorrect": {
+      "message": "Mail ou Mot de passe incorrect"
+   },
+   "mais_du_temps_de_gagne_plus_besoin_de_chercher_des_codes_sur_internet": {
+      "message": "Mais du temps de gagné ! Plus besoin de chercher des codes sur internet."
+   },
+   "meilleure_offre": {
+      "message": "Meilleure offre : "
+   },
+   "mon_compte": {
+      "message": "Mon compte"
+   },
+   "mot_de_passe": {
+      "message": "Mot de passe"
+   },
+   "mot_de_passe_oublie": {
+      "message": "Mot de passe oublié"
+   },
+   "noter_wanteeed": {
+      "message": "Noter Wanteeed"
+   },
+   "nous_recherchons_le_meilleur_prix_pour": {
+      "message": "Nous recherchons le meilleur prix pour"
+   },
+   "nous_testons_les_codes_promo_pour_vous": {
+      "message": "Nous testons les codes promo pour vous"
+   },
+   "nous_vous_remboursons_une_partie_de_vos_achats_sur_cette_boutique": {
+      "message": "Nous vous remboursons une partie de vos achats sur cette boutique"
+   },
+   "partager": {
+      "message": "Partager"
+   },
+   "pas_de_bonus": {
+      "message": "Pas de Bonus :("
+   },
+   "pas_de_reduction_aujourd_hui": {
+      "message": "Pas de réduction aujourd'hui."
+   },
+   "plus_besoin_de_chercher_le_bon_code_promo_avant_d_acheter_wanteeed_le_trouve_pour_vous__en_un_clic": {
+      "message": "Plus besoin de chercher le bon code promo avant d'acheter, Wanteeed le trouve pour vous, en un clic."
+   },
+   "pour_nous_remercier_donnez_nous_une_note": {
+      "message": "Pour nous remercier, donnez nous une note :)"
+   },
+   "ps__ca_marche_sur_des_centaines_d_autres_boutiques": {
+      "message": "PS: ça marche sur des centaines d'autres boutiques !"
+   },
+   "se_connecter": {
+      "message": "Se connecter"
+   },
+   "si_vous_souhaitez_passer_commande_vous_devez_de_nouveau_activer_votre_bonus_puis_finaliser_votre_achat_sans_partir_du_site_marchand": {
+      "message": "Si vous souhaitez passer commande, vous devez de nouveau activer votre bonus puis finaliser votre achat sans partir du site marchand."
+   },
+   "super": {
+      "message": "SUPER !"
+   },
+   "sur_quel_mail_souhaitez_vous_recevoir_vos_bonus": {
+      "message": "Sur quel mail souhaitez vous recevoir vos bonus ?"
+   },
+   "tester_les_codes": {
+      "message": "TESTER LES CODES !"
+   },
+   "valider": {
+      "message": "Valider"
+   },
+   "voir": {
+      "message": "voir"
+   },
+   "voir_la_demo": {
+      "message": "- voir la démo -"
+   },
+   "votre_bonus_a_ete_active_depuis_une_autre_page_": {
+      "message": "Votre bonus a été activé depuis une autre page."
+   },
+   "votre_vote_est_pris_en_compte": {
+      "message": "Votre vote est pris en compte"
+   },
+   "vous_devez_vous_connecter_a_votre_compte_client_sur_ce_site__domain_avant_de_lancer_le_test": {
+      "message": "Vous devez vous connecter à votre compte client sur ce site ($DOMAIN$) avant de lancer le test.",
+      "placeholders": {
+         "domain": {
+            "content": "$1"
+         }
+      }
+   },
+   "wanteeed_a_trouve_votre_panier_moins_cher_sur_une_autre_boutique": {
+      "message": "Wanteeed a trouvé votre panier moins cher sur une autre boutique !"
+   },
+   "wanteeed_va_chercher_pour_vous_les_meilleurs_codes_promo_du_net": {
+      "message": "Wanteeed va chercher pour vous les meilleurs codes promo du net"
+   },
+   "wanteeed_vous_a_permis_d_economiser_x_": {
+      "message": "Wanteeed vous a permis d'économiser \u003Cspan class='amount'>15,20\u003C/span>€"
+   },
+   "x_codes": {
+      "message": "$COUNT$ Codes",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "x_euros_de_moins_a_payer": {
+      "message": "\u003Cspan class='amount'>3\u003C/span>€ de moins à payer !"
+   },
+   "x_rembourses_au_lieu_de_y": {
+      "message": "\u003Cspan class='red'>$NEW_VALUE$$CURRENCY$\u003C/span> remboursés au lieu de $OLD_VALUE$$CURRENCY$",
+      "placeholders": {
+         "currency": {
+            "content": "$2"
+         },
+         "new_value": {
+            "content": "$1"
+         },
+         "old_value": {
+            "content": "$3"
+         }
+      }
+   }
+}

@@ -1,0 +1,12 @@
+LOG | 8/18 38:30 |	 Load bots request failed:  {"result":"error","msg":"Non connect\u00e9: Authentification API ou session utilisateur indispensable"}
+
+LOG | 8/18 38:30 |	 Load bots request status:  401
+LOG | 8/18 38:53 |	 Load bots request failed:  {"result":"error","msg":"Non connect\u00e9: Authentification API ou session utilisateur indispensable"}
+
+LOG | 8/18 38:53 |	 Load bots request status:  401
+LOG | 8/18 38:56 |	 Load bots request failed:  {"result":"error","msg":"Non connect\u00e9: Authentification API ou session utilisateur indispensable"}
+
+LOG | 8/18 38:56 |	 Load bots request status:  401
+LOG | 8/18 45:25 |	 Load bots request failed:  {"result":"error","msg":"Non connect\u00e9: Authentification API ou session utilisateur indispensable"}
+
+LOG | 8/18 45:25 |	 Load bots request status:  401

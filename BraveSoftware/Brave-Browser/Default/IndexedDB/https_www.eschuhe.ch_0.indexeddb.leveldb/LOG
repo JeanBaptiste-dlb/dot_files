@@ -1,0 +1,5 @@
+2020/09/27-20:48:22.137 98b9 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.eschuhe.ch_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/27-20:48:26.790 4312 Level-0 table #5: started
+2020/09/27-20:48:26.794 4312 Level-0 table #5: 1761 bytes OK
+2020/09/27-20:48:26.796 4312 Delete type=0 #3
+2020/09/27-20:48:26.797 4312 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
