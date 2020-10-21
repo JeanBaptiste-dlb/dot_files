@@ -1,5 +1,15 @@
-2020/09/27-22:06:37.921 a125 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fnac.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/27-22:06:40.042 a2e3 Level-0 table #5: started
-2020/09/27-22:06:40.048 a2e3 Level-0 table #5: 819 bytes OK
-2020/09/27-22:06:40.052 a2e3 Delete type=0 #3
-2020/09/27-22:06:40.052 a2e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/06-01:04:13.213 899cf Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fnac.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/06-01:04:13.214 899cf Recovering log #39
+2020/10/06-01:04:13.214 899cf Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fnac.com_0.indexeddb.leveldb/000039.log 
+2020/10/06-01:10:15.206 1792 Level-0 table #44: started
+2020/10/06-01:10:15.210 1792 Level-0 table #44: 1169 bytes OK
+2020/10/06-01:10:15.212 1792 Delete type=0 #39
+2020/10/06-01:10:15.213 1792 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/06-01:10:15.213 1792 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00l\x00a\x00s\x00t\x00c\x00o\x00n\x00f\x00i\x00g' @ 254 : 1
+2020/10/06-01:10:15.213 1792 Compacting 1@1 + 1@2 files
+2020/10/06-01:10:15.215 1792 Generated table #45@1: 32 keys, 1489 bytes
+2020/10/06-01:10:15.215 1792 Compacted 1@1 + 1@2 files => 1489 bytes
+2020/10/06-01:10:15.217 1792 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/06-01:10:15.217 1792 Delete type=2 #41
+2020/10/06-01:10:15.217 1792 Delete type=2 #44
+2020/10/06-01:10:15.217 1792 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00l\x00a\x00s\x00t\x00c\x00o\x00n\x00f\x00i\x00g' @ 254 : 1 .. (end); will stop at (end)

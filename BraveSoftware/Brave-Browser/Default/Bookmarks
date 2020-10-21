@@ -1,5 +1,5 @@
 {
-   "checksum": "9c2a1de8223c4c29895e29256d99a6cc",
+   "checksum": "6073c8e99a676a4e996cdfee998e92dd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -86,9 +86,37 @@
             "name": "Moodle 2020-2021",
             "type": "url",
             "url": "https://moodle.epfl.ch/"
+         }, {
+            "date_added": "13246713528573338",
+            "guid": "0737bcc9-8c6a-46e0-814f-78dc2add0557",
+            "id": "23",
+            "name": "GoEmotions: A Dataset of Fine-Grained Emotions",
+            "type": "url",
+            "url": "https://www.aclweb.org/anthology/2020.acl-main.372.pdf"
+         }, {
+            "date_added": "13246714768306047",
+            "guid": "72dfb6c7-db0d-46d7-843b-ba2048b81090",
+            "id": "24",
+            "name": "facebookresearch/EmpatheticDialogues: Dialogue model that produces empathetic responses when trained on the EmpatheticDialogues dataset.",
+            "type": "url",
+            "url": "https://github.com/facebookresearch/EmpatheticDialogues"
+         }, {
+            "date_added": "13246716264976243",
+            "guid": "195b6ece-0590-4f0f-a1a2-a0735eb570cc",
+            "id": "25",
+            "name": "google-research/goemotions/data/full_dataset at master · google-research/google-research",
+            "type": "url",
+            "url": "https://github.com/google-research/google-research/tree/master/goemotions/data/full_dataset"
+         }, {
+            "date_added": "13247755167542241",
+            "guid": "c904fb72-e5f4-4583-9d77-0311341d32c5",
+            "id": "27",
+            "name": "AIcrowd | EPFL Machine Learning Higgs | Submissions #90122",
+            "type": "url",
+            "url": "https://www.aicrowd.com/challenges/epfl-machine-learning-higgs/submissions/90122"
          } ],
          "date_added": "13243009795867870",
-         "date_modified": "13245761334430153",
+         "date_modified": "13247755167542241",
          "guid": "00000000-0000-4000-a000-000000000002",
          "id": "1",
          "name": "Favoris",

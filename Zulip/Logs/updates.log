@@ -63,3 +63,94 @@
     at App.EventEmitter.emit (domain.js:476:20)
     at App.emitter.emit (/tmp/.mount_Zulip-pAuais/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:58:20)
     at App.topLevelDomainCallback (domain.js:131:23)
+[2020-10-07 11:31:28.921] [info] Checking for update
+[2020-10-07 11:31:30.074] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-07 11:31:30.074] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-07 11:31:30.566] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-07 11:31:39.485] [info] Install on explicit quitAndInstall
+[2020-10-07 11:31:39.490] [info] Install: isSilent: false, isForceRunAfter: true
+[2020-10-07 11:31:39.494] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at AppImageUpdater.quitAndInstall (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:28:30)
+    at AppImageUpdater.<anonymous> (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/app/main/autoupdater.js:110:44)
+[2020-10-07 11:31:39.503] [info] Auto install update on quit
+[2020-10-07 11:31:39.504] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-10-07 11:31:39.507] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:300:26)
+    at App.emit (events.js:215:7)
+    at App.EventEmitter.emit (domain.js:476:20)
+    at App.emitter.emit (/tmp/.mount_Zulip-D3IfG4/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:58:20)
+    at App.topLevelDomainCallback (domain.js:131:23)
+[2020-10-07 11:32:05.554] [info] Checking for update
+[2020-10-07 11:32:06.473] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-07 11:32:06.475] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-07 11:32:06.693] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-07 11:32:10.784] [info] Install on explicit quitAndInstall
+[2020-10-07 11:32:10.785] [info] Install: isSilent: false, isForceRunAfter: true
+[2020-10-07 11:32:10.787] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at AppImageUpdater.quitAndInstall (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:28:30)
+    at AppImageUpdater.<anonymous> (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/app/main/autoupdater.js:110:44)
+[2020-10-07 11:32:10.792] [info] Auto install update on quit
+[2020-10-07 11:32:10.793] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-10-07 11:32:10.795] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:300:26)
+    at App.emit (events.js:215:7)
+    at App.EventEmitter.emit (domain.js:476:20)
+    at App.emitter.emit (/tmp/.mount_Zulip-Vh9nAp/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:58:20)
+    at App.topLevelDomainCallback (domain.js:131:23)
+[2020-10-07 11:32:28.510] [info] Checking for update
+[2020-10-07 11:32:29.271] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-07 11:32:29.271] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-07 11:32:29.490] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-07 17:35:37.035] [info] Checking for update
+[2020-10-07 17:35:38.478] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-07 17:35:38.480] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-07 17:35:38.835] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-07 17:35:41.630] [info] Install on explicit quitAndInstall
+[2020-10-07 17:35:41.631] [info] Install: isSilent: false, isForceRunAfter: true
+[2020-10-07 17:35:41.634] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at AppImageUpdater.quitAndInstall (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:28:30)
+    at AppImageUpdater.<anonymous> (/tmp/.mount_Zulip-6prYqi/resources/app.asar/app/main/autoupdater.js:110:44)
+[2020-10-07 17:35:41.638] [info] Auto install update on quit
+[2020-10-07 17:35:41.639] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-10-07 17:35:41.640] [error] Error: Error: ENOSYS: function not implemented, unlink '/run/user/1000/appimagelauncherfs/0000.AppImage'
+    at unlinkSync (fs.js:1035:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:300:26)
+    at App.emit (events.js:215:7)
+    at App.EventEmitter.emit (domain.js:476:20)
+    at App.emitter.emit (/tmp/.mount_Zulip-6prYqi/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:58:20)
+    at App.topLevelDomainCallback (domain.js:131:23)
+[2020-10-07 17:35:52.559] [info] Checking for update
+[2020-10-07 17:35:53.472] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-07 17:35:53.475] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-07 17:35:53.945] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-11 22:40:01.795] [info] Checking for update
+[2020-10-11 22:40:03.154] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-11 22:40:03.154] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-11 22:40:03.467] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).
+[2020-10-15 11:52:47.616] [info] Checking for update
+[2020-10-15 11:52:49.113] [info] Found version 5.4.3 (url: Zulip-5.4.3-x86_64.AppImage)
+[2020-10-15 11:52:49.114] [info] Downloading update from Zulip-5.4.3-x86_64.AppImage
+[2020-10-15 11:52:49.432] [info] Update has already been downloaded to /home/cormak/.cache/zulip-updater/pending/Zulip-5.4.3-x86_64.AppImage).

@@ -19,6 +19,7 @@ application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
 x-scheme-handler/kite=kite-copilot.desktop
 x-scheme-handler/mailspring=mailspring.desktop
+x-scheme-handler/gitkraken=GitKraken.desktop
 
 [Added Associations]
 x-scheme-handler/http=exo-web-browser.desktop;

@@ -1,6 +1,9 @@
-2020/09/29-17:09:21.759 56e Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2020/09/29-17:09:21.762 56e Recovering log #130
-2020/09/29-17:09:21.763 56e Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000130.log 
-2020/09/29-18:28:58.861 10f9 Level-0 table #134: started
-2020/09/29-18:28:58.867 10f9 Level-0 table #134: 26423 bytes OK
-2020/09/29-18:28:58.870 10f9 Delete type=0 #130
+2020/10/21-09:00:50.748 8902 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2020/10/21-09:00:50.748 8902 Recovering log #249
+2020/10/21-09:00:50.749 8902 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000249.log 
+2020/10/21-13:31:11.839 8d89 Level-0 table #254: started
+2020/10/21-13:31:11.844 8d89 Level-0 table #254: 30113 bytes OK
+2020/10/21-13:31:11.848 8d89 Delete type=0 #249
+2020/10/21-19:33:22.923 8d89 Level-0 table #256: started
+2020/10/21-19:33:22.927 8d89 Level-0 table #256: 30969 bytes OK
+2020/10/21-19:33:22.931 8d89 Delete type=0 #253

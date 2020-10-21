@@ -1,15 +1,15 @@
-2020/09/27-14:40:30.908 434d Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/27-14:40:30.908 434d Recovering log #27
-2020/09/27-14:40:30.908 434d Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/000027.log 
-2020/09/27-14:40:33.636 4312 Level-0 table #32: started
-2020/09/27-14:40:33.640 4312 Level-0 table #32: 538 bytes OK
-2020/09/27-14:40:33.643 4312 Delete type=0 #27
-2020/09/27-14:40:33.644 4312 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/27-14:40:33.644 4312 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00@"\x90\x03MwB\x00\x01\x14\x00H\x009\x00Y\x00R\x00E\x00C\x006\x00S\x00A\x00W\x00A\x004\x005\x00D\x003\x00B\x007\x00F\x002\x00M' @ 263 : 1
-2020/09/27-14:40:33.644 4312 Compacting 1@1 + 1@2 files
-2020/09/27-14:40:33.646 4312 Generated table #33@1: 49 keys, 1436 bytes
-2020/09/27-14:40:33.646 4312 Compacted 1@1 + 1@2 files => 1436 bytes
-2020/09/27-14:40:33.648 4312 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/09/27-14:40:33.648 4312 Delete type=2 #32
-2020/09/27-14:40:33.648 4312 Delete type=2 #29
-2020/09/27-14:40:33.648 4312 Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00@"\x90\x03MwB\x00\x01\x14\x00H\x009\x00Y\x00R\x00E\x00C\x006\x00S\x00A\x00W\x00A\x004\x005\x00D\x003\x00B\x007\x00F\x002\x00M' @ 263 : 1 .. (end); will stop at (end)
+2020/10/18-17:34:25.761 7bca Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/18-17:34:25.762 7bca Recovering log #147
+2020/10/18-17:34:25.762 7bca Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/000147.log 
+2020/10/18-17:34:37.416 1bd1 Level-0 table #152: started
+2020/10/18-17:34:37.419 1bd1 Level-0 table #152: 785 bytes OK
+2020/10/18-17:34:37.422 1bd1 Delete type=0 #147
+2020/10/18-17:34:37.423 1bd1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/18-17:34:37.423 1bd1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00 \x04\xdd\xcfSwB\x00\x01\x14\x00E\x00W\x00Q\x006\x00S\x00R\x00Q\x00Z\x00T\x008\x00W\x002\x00T\x00G\x001\x00A\x00K\x00M\x007\x00X' @ 1055 : 1
+2020/10/18-17:34:37.423 1bd1 Compacting 1@1 + 1@2 files
+2020/10/18-17:34:37.425 1bd1 Generated table #153@1: 26 keys, 738 bytes
+2020/10/18-17:34:37.426 1bd1 Compacted 1@1 + 1@2 files => 738 bytes
+2020/10/18-17:34:37.428 1bd1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/18-17:34:37.429 1bd1 Delete type=2 #149
+2020/10/18-17:34:37.429 1bd1 Delete type=2 #152
+2020/10/18-17:34:37.429 1bd1 Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00 \x04\xdd\xcfSwB\x00\x01\x14\x00E\x00W\x00Q\x006\x00S\x00R\x00Q\x00Z\x00T\x008\x00W\x002\x00T\x00G\x001\x00A\x00K\x00M\x007\x00X' @ 1055 : 1 .. (end); will stop at (end)

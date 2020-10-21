@@ -1,73 +1,45 @@
-00:00:00.000203 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  4 2020 09:33:33) release log
-00:00:00.000205 main     Log opened 2020-09-22T21:28:12.417616000Z
-00:00:00.000206 main     Build Type: release
-00:00:00.000213 main     OS Product: Linux
-00:00:00.000214 main     OS Release: 5.8.6-1-MANJARO
-00:00:00.000215 main     OS Version: #1 SMP PREEMPT Thu Sep 3 14:19:36 UTC 2020
-00:00:00.000240 main     DMI Product Name: Inspiron 5482
-00:00:00.000247 main     DMI Product Version: 
-00:00:00.000253 main     Firmware type: UEFI
-00:00:00.000996 main     Secure Boot: Disabled
-00:00:00.001039 main     Host RAM: 7638MB (7.4GB) total, 3492MB (3.4GB) available
-00:00:00.001043 main     Executable: /opt/VirtualBox/VBoxSVC
-00:00:00.001043 main     Process ID: 124021
-00:00:00.001043 main     Package type: LINUX_64BITS_GENERIC
-00:00:00.002731 main     IPC socket path: /tmp/.vbox-cormak-ipc/ipcd
-00:00:00.105420 nspr-2   VirtualBox: object creation starts
-00:00:00.105523 nspr-2   Home directory: '/home/cormak/.config/VirtualBox'
-00:00:00.105697 nspr-2   Loading settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.118309 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.119528 nspr-2   HostDnsMonitor: initializing
-00:00:00.119896 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
-00:00:00.119909 nspr-2   NAT: resolv.conf: nameserver 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
-00:00:00.119923 nspr-2   HostDnsMonitor: updating information
-00:00:00.119951 nspr-2   HostDnsMonitor: old information
-00:00:00.119955 nspr-2     no server entries
-00:00:00.119959 nspr-2     no domain set
-00:00:00.119961 nspr-2     no search string entries
-00:00:00.119963 nspr-2   HostDnsMonitor: new information
-00:00:00.119966 nspr-2     server 1: 192.168.1.1
-00:00:00.119968 nspr-2     server 2: 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
-00:00:00.119971 nspr-2     domain: home
-00:00:00.119973 nspr-2     search string 1: home
-00:00:00.121926 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:00:00.122122 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.122196 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.122768 nspr-2   VirtualBox: object created
-00:00:01.311920 nspr-2   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:01.318144 nspr-2   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:19.769549 nspr-4   Import settings with version "1.15-macosx"
-00:00:19.774964 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'hw1-wm'}, preserve=false aResultDetail=0
-00:00:19.775158 nspr-4   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium '/home/cormak/VirtualBox VMs/hw1-wm/hw1-vm-disk001.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
-00:01:02.338546 createImport Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:02.342668 ApplImp  ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Machine settings file '/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox' already exists}, preserve=false aResultDetail=0
-00:01:20.826898 createImport ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not create the imported medium '/home/cormak/VirtualBox VMs/hw1-wm/hw1-vm-disk001.vdi'.
-00:01:20.826909 createImport VDI: cannot create image '/home/cormak/VirtualBox VMs/hw1-wm/hw1-vm-disk001.vdi' (VERR_ALREADY_EXISTS)}, preserve=false aResultDetail=-105
-00:01:20.828012 ApplImp  ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Machine settings file '/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox' already exists}, preserve=false aResultDetail=0
-00:01:31.810061 nspr-4   Loading settings file "/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox" with version "1.15-linux"
-00:01:31.811906 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {4497cbfc-100e-42c6-b39f-4045d851e7aa}}, preserve=false aResultDetail=0
-00:01:31.814405 nspr-4   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:32.210404 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:32.248217 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:01:32.404074 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:32.405094 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:34.496484 nspr-4   Launched VM: 1208163840 pid: 124103 (0x1e4c7) frontend: GUI/Qt name: hw1-wm
-00:01:34.522192 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:01:34.545144 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:34.545862 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:34.997191 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The virtual machine 'hw1-wm' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
-00:01:35.546667 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
-00:01:35.564713 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:35.565486 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
-00:01:51.140442 nspr-3   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:51.148416 nspr-2   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:51.167459 nspr-2   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:51.172624 nspr-4   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:51.178018 nspr-3   Saving settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:01:56.694029 main     VirtualBox: object deletion starts
-00:01:56.694163 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/cormak/VirtualBox VMs/hw1-wm/hw1-vm-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-00:01:56.694878 main     HostDnsMonitor: shutting down ...
-00:01:56.703103 main     HostDnsMonitor: shut down
-00:01:57.004012 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:02:01.703229 main     {00007fa158017650} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
-00:02:01.703523 main     VirtualBox: object deleted
+00:00:00.002998 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
+00:00:00.003003 main     Log opened 2020-09-30T14:06:29.592988000Z
+00:00:00.003004 main     Build Type: release
+00:00:00.003007 main     OS Product: Linux
+00:00:00.003009 main     OS Release: 5.8.6-1-MANJARO
+00:00:00.003012 main     OS Version: #1 SMP PREEMPT Thu Sep 3 14:19:36 UTC 2020
+00:00:00.003072 main     DMI Product Name: Inspiron 5482
+00:00:00.003090 main     DMI Product Version: 
+00:00:00.003097 main     Firmware type: UEFI
+00:00:00.004210 main     Secure Boot: Disabled
+00:00:00.004275 main     Host RAM: 7638MB (7.4GB) total, 3982MB (3.8GB) available
+00:00:00.004280 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.004281 main     Process ID: 50208
+00:00:00.004282 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.007605 main     IPC socket path: /tmp/.vbox-cormak-ipc/ipcd
+00:00:00.122443 nspr-2   VirtualBox: object creation starts
+00:00:00.122641 nspr-2   Home directory: '/home/cormak/.config/VirtualBox'
+00:00:00.123898 nspr-2   Loading settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.145518 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.147157 nspr-2   HostDnsMonitor: initializing
+00:00:00.147783 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.147813 nspr-2   NAT: resolv.conf: nameserver 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
+00:00:00.147840 nspr-2   HostDnsMonitor: updating information
+00:00:00.147875 nspr-2   HostDnsMonitor: old information
+00:00:00.147883 nspr-2     no server entries
+00:00:00.147890 nspr-2     no domain set
+00:00:00.147896 nspr-2     no search string entries
+00:00:00.147902 nspr-2   HostDnsMonitor: new information
+00:00:00.147908 nspr-2     server 1: 192.168.1.1
+00:00:00.147916 nspr-2     server 2: 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
+00:00:00.147923 nspr-2     domain: home
+00:00:00.147929 nspr-2     search string 1: home
+00:00:00.155566 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.156200 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.168886 nspr-2   Loading settings file "/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox" with version "1.15-linux"
+00:00:00.171233 nspr-2   VirtualBox: object created
+00:00:01.297401 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.584757 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.585985 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.616461 nspr-2   Launched VM: 3892318896 pid: 50235 (0xc43b) frontend: headless name: hw1-wm
+00:00:06.770876 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.817254 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:06.818970 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.608443 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:07.610302 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0

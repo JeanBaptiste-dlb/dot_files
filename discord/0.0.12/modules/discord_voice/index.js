@@ -1,5 +1,6 @@
 const VoiceEngine = require('./discord_voice.node');
 const ChildProcess = require('child_process');
+const fs = require('fs');
 const path = require('path');
 const yargs = require('yargs');
 
@@ -9,6 +10,17 @@ const isElectronRenderer =
 const appSettings = isElectronRenderer ? window.DiscordNative.settings : global.appSettings;
 const features = isElectronRenderer ? window.DiscordNative.features : global.features;
 const mainArgv = isElectronRenderer ? window.DiscordNative.processUtils.getMainArgvSync() : [];
+let dataDirectory;
+
+try {
+  dataDirectory =
+    isElectronRenderer && window.DiscordNative.fileManager.getModuleDataPathSync
+      ? path.join(window.DiscordNative.fileManager.getModuleDataPathSync(), 'discord_voice')
+      : null;
+} catch (e) {
+  console.error('Failed to get data directory: ', e);
+}
+
 const releaseChannel = isElectronRenderer ? window.DiscordNative.app.getReleaseChannel() : '';
 const useLegacyAudioDevice = appSettings ? appSettings.getSync('useLegacyAudioDevice') : false;
 const audioSubsystemSelected = appSettings
@@ -26,6 +38,14 @@ const argv = yargs(mainArgv.slice(1))
   .alias('h', 'help')
   .exitProcess(false).argv;
 const logLevel = argv['log-level'] == -1 ? (debugLogging ? 2 : -1) : argv['log-level'];
+
+if (dataDirectory != null) {
+  try {
+    fs.mkdirSync(dataDirectory, {recursive: true});
+  } catch (e) {
+    console.warn("Couldn't create voice data directory ", dataDirectory, ':', e);
+  }
+}
 
 if (debugLogging && console.discordVoiceHooked == null) {
   console.discordVoiceHooked = true;
@@ -122,36 +142,31 @@ function bindConnectionInstance(instance) {
   };
 }
 
-const VoiceConnection = VoiceEngine.VoiceConnection;
-const VoiceReplayConnection = VoiceEngine.VoiceReplayConnection;
-
-delete VoiceEngine.VoiceConnection;
-delete VoiceEngine.VoiceReplayConnection;
-
 VoiceEngine.createTransport = VoiceEngine._createTransport;
 
 if (isElectronRenderer) {
   VoiceEngine.setImageDataAllocator((width, height) => new window.ImageData(width, height));
 }
 
-VoiceEngine.VoiceConnection = function (audioSSRC, userId, address, port, onConnectCallback, experiments, rids) {
+VoiceEngine.createVoiceConnection = function (audioSSRC, userId, address, port, onConnectCallback, experiments, rids) {
   let instance = null;
   if (rids != null) {
-    instance = new VoiceConnection(audioSSRC, userId, address, port, onConnectCallback, experiments, rids);
+    instance = new VoiceEngine.VoiceConnection(audioSSRC, userId, address, port, onConnectCallback, experiments, rids);
   } else if (experiments != null) {
-    instance = new VoiceConnection(audioSSRC, userId, address, port, onConnectCallback, experiments);
+    instance = new VoiceEngine.VoiceConnection(audioSSRC, userId, address, port, onConnectCallback, experiments);
   } else {
-    instance = new VoiceConnection(audioSSRC, userId, address, port, onConnectCallback);
+    instance = new VoiceEngine.VoiceConnection(audioSSRC, userId, address, port, onConnectCallback);
   }
   return bindConnectionInstance(instance);
 };
+VoiceEngine.createOwnStreamConnection = VoiceEngine.createVoiceConnection;
 
 VoiceEngine.createReplayConnection = function (audioEngineId, callback, replayLog) {
   if (replayLog == null) {
     return null;
   }
 
-  return new VoiceReplayConnection(replayLog, audioEngineId, callback);
+  return new VoiceEngine.VoiceReplayConnection(replayLog, audioEngineId, callback);
 };
 
 VoiceEngine.setAudioSubsystem = function (subsystem) {
@@ -315,6 +330,6 @@ VoiceEngine.getNextVideoOutputFrame = function (streamId) {
 };
 
 console.log(`Initializing voice engine with audio subsystem: ${audioSubsystem}`);
-VoiceEngine.initialize({audioSubsystem, logLevel});
+VoiceEngine.initialize({audioSubsystem, logLevel, dataDirectory});
 
 module.exports = VoiceEngine;

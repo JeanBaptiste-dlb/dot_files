@@ -32,7 +32,7 @@
 					"file": "/home/cormak/.i3/config",
 					"settings":
 					{
-						"buffer_size": 16342,
+						"buffer_size": 16338,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -47,13 +47,13 @@
 					}
 				},
 				{
-					"contents": "",
+					"contents": "YWRtaW4sMTYwMjA3Nzg5Nixjb200MDIsaHcyLGV4MSx1c2Vy  admin admin\namIsMTYwMjA3ODAwMyxjb200MDIsaHcyLGV4MSx1c2Vy jb salut",
 					"file": "/home/cormak/Documents/cours/python_notes/pandas",
 					"file_size": 0,
 					"file_write_time": 132450895043429975,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 115,
 						"line_ending": "Unix"
 					}
 				}
@@ -125,7 +125,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -162,7 +162,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16342,
+								"buffer_size": 16338,
 								"regions":
 								{
 								},
@@ -197,8 +197,8 @@
 								"selection":
 								[
 									[
-										124,
-										124
+										0,
+										0
 									]
 								],
 								"settings":
@@ -209,7 +209,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -218,7 +218,7 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 115,
 								"regions":
 								{
 								},
@@ -237,7 +237,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -279,7 +279,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,647,12,1271,1042,1920,1080",
+			"position": "1,0,0,0,0,0,0,1920,1056,1920,1080",
 			"project": "",
 			"replace":
 			{

@@ -7,10 +7,8 @@
             "index" : 1,
             "requires-update" : false,
             "active" : false,
-            "children" : {
-            },
-            "families" : [
-            ],
+            "children" : {            },
+            "families" : [],
             "size" : 0
         },
         "Enter Collection Name" : {
@@ -20,10 +18,8 @@
             "index" : 0,
             "requires-update" : false,
             "active" : false,
-            "children" : {
-            },
-            "families" : [
-            ],
+            "children" : {            },
+            "families" : [],
             "size" : 0
         }
     }

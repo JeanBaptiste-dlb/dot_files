@@ -1,54 +1,45 @@
-00:00:00.002512 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
-00:00:00.002516 main     Log opened 2020-09-29T14:58:19.768839000Z
-00:00:00.002517 main     Build Type: release
-00:00:00.002520 main     OS Product: Linux
-00:00:00.002522 main     OS Release: 5.8.6-1-MANJARO
-00:00:00.002523 main     OS Version: #1 SMP PREEMPT Thu Sep 3 14:19:36 UTC 2020
-00:00:00.002559 main     DMI Product Name: Inspiron 5482
-00:00:00.002573 main     DMI Product Version: 
-00:00:00.002579 main     Firmware type: UEFI
-00:00:00.003586 main     Secure Boot: Disabled
-00:00:00.003640 main     Host RAM: 7638MB (7.4GB) total, 6136MB (5.9GB) available
-00:00:00.003644 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.003645 main     Process ID: 40816
-00:00:00.003646 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.006321 main     IPC socket path: /tmp/.vbox-cormak-ipc/ipcd
-00:00:00.119373 nspr-2   VirtualBox: object creation starts
-00:00:00.119501 nspr-2   Home directory: '/home/cormak/.config/VirtualBox'
-00:00:00.120078 nspr-2   Loading settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.136396 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.137702 nspr-2   HostDnsMonitor: initializing
-00:00:00.138173 nspr-2   NAT: resolv.conf: nameserver 128.178.15.227
-00:00:00.138192 nspr-2   NAT: resolv.conf: nameserver 128.178.15.228
-00:00:00.138198 nspr-2   NAT: resolv.conf: nameserver 128.178.15.229
-00:00:00.138213 nspr-2   HostDnsMonitor: updating information
-00:00:00.138237 nspr-2   HostDnsMonitor: old information
-00:00:00.138242 nspr-2     no server entries
-00:00:00.138246 nspr-2     no domain set
-00:00:00.138250 nspr-2     no search string entries
-00:00:00.138254 nspr-2   HostDnsMonitor: new information
-00:00:00.138258 nspr-2     server 1: 128.178.15.227
-00:00:00.138263 nspr-2     server 2: 128.178.15.228
-00:00:00.138267 nspr-2     server 3: 128.178.15.229
-00:00:00.138270 nspr-2     domain: epfl.ch
-00:00:00.138274 nspr-2     search string 1: epfl.ch
-00:00:00.144294 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.144870 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.152910 nspr-2   Loading settings file "/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox" with version "1.15-linux"
-00:00:00.155088 nspr-2   VirtualBox: object created
-00:00:00.990634 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:01.268016 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:01.269210 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:04.655439 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:05.439280 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:05.445905 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:05.457014 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:05.457553 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:05.672600 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:05.673755 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:10.439159 nspr-2   Launched VM: 536879968 pid: 40850 (0x9f92) frontend: headless name: hw1-wm
-00:00:10.571171 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:10.602048 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:10.603788 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:11.384860 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:11.386522 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.003025 main     VirtualBox XPCOM Server 6.1.14 r140239 linux.amd64 (Sep  7 2020 21:01:30) release log
+00:00:00.003034 main     Log opened 2020-10-04T23:03:02.083475000Z
+00:00:00.003036 main     Build Type: release
+00:00:00.003046 main     OS Product: Linux
+00:00:00.003047 main     OS Release: 5.8.11-1-MANJARO
+00:00:00.003049 main     OS Version: #1 SMP PREEMPT Wed Sep 23 14:35:40 UTC 2020
+00:00:00.003170 main     DMI Product Name: Inspiron 5482
+00:00:00.003190 main     DMI Product Version: 
+00:00:00.003203 main     Firmware type: UEFI
+00:00:00.004225 main     Secure Boot: Disabled
+00:00:00.004258 main     Host RAM: 7638MB (7.4GB) total, 3406MB (3.3GB) available
+00:00:00.004261 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.004261 main     Process ID: 12018
+00:00:00.004262 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.008086 main     IPC socket path: /tmp/.vbox-cormak-ipc/ipcd
+00:00:00.120445 nspr-2   VirtualBox: object creation starts
+00:00:00.120632 nspr-2   Home directory: '/home/cormak/.config/VirtualBox'
+00:00:00.121106 nspr-2   Loading settings file "/home/cormak/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.144512 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.146211 nspr-2   HostDnsMonitor: initializing
+00:00:00.146867 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.146896 nspr-2   NAT: resolv.conf: nameserver 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
+00:00:00.146921 nspr-2   HostDnsMonitor: updating information
+00:00:00.146970 nspr-2   HostDnsMonitor: old information
+00:00:00.146978 nspr-2     no server entries
+00:00:00.146985 nspr-2     no domain set
+00:00:00.146991 nspr-2     no search string entries
+00:00:00.146997 nspr-2   HostDnsMonitor: new information
+00:00:00.147002 nspr-2     server 1: 192.168.1.1
+00:00:00.147010 nspr-2     server 2: 2a02:120b:7f7:a8c0:a264:8fff:fe9f:f210
+00:00:00.147016 nspr-2     domain: home
+00:00:00.147022 nspr-2     search string 1: home
+00:00:00.155194 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.155902 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.171896 nspr-2   Loading settings file "/home/cormak/VirtualBox VMs/hw1-wm/hw1-wm.vbox" with version "1.15-linux"
+00:00:00.174369 nspr-2   VirtualBox: object created
+00:00:00.778667 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.925811 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.926535 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:04.764528 nspr-3   Launched VM: 268442032 pid: 12049 (0x2f11) frontend: headless name: hw1-wm
+00:00:04.875311 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:04.889707 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:04.890251 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.564517 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.565438 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0

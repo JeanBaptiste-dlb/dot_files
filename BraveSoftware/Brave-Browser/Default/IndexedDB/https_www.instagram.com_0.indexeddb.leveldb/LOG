@@ -1,15 +1,15 @@
-2020/09/29-01:10:23.188 4d7f Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/29-01:10:23.188 4d7f Recovering log #111
-2020/09/29-01:10:23.189 4d7f Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000111.log 
-2020/09/29-01:10:32.633 a8f Level-0 table #115: started
-2020/09/29-01:10:32.639 a8f Level-0 table #115: 21840 bytes OK
-2020/09/29-01:10:32.641 a8f Delete type=0 #111
-2020/09/29-01:10:32.641 a8f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/29-01:10:32.641 a8f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 6484 : 0
-2020/09/29-01:10:32.641 a8f Compacting 1@1 + 1@2 files
-2020/09/29-01:10:32.644 a8f Generated table #116@1: 41 keys, 11089 bytes
-2020/09/29-01:10:32.644 a8f Compacted 1@1 + 1@2 files => 11089 bytes
-2020/09/29-01:10:32.646 a8f compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/09/29-01:10:32.646 a8f Delete type=2 #115
-2020/09/29-01:10:32.646 a8f Delete type=2 #109
-2020/09/29-01:10:32.646 a8f Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0a\x00p\x00o\x00s\x00t\x00s\x00.\x00b\x00y\x00I\x00d' @ 6484 : 0 .. (end); will stop at (end)
+2020/10/12-02:01:24.740 128b7 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/12-02:01:24.741 128b7 Recovering log #122
+2020/10/12-02:01:24.741 128b7 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000122.log 
+2020/10/12-02:02:13.250 10c07 Level-0 table #127: started
+2020/10/12-02:02:13.254 10c07 Level-0 table #127: 64200 bytes OK
+2020/10/12-02:02:13.256 10c07 Delete type=0 #122
+2020/10/12-02:02:13.257 10c07 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/12-02:02:13.257 10c07 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00u\x00s\x00e\x00r\x00s\x00.\x00v\x00i\x00e\x00w\x00e\x00r\x00I\x00d' @ 6968 : 1
+2020/10/12-02:02:13.257 10c07 Compacting 1@1 + 1@2 files
+2020/10/12-02:02:13.261 10c07 Generated table #128@1: 40 keys, 27398 bytes
+2020/10/12-02:02:13.261 10c07 Compacted 1@1 + 1@2 files => 27398 bytes
+2020/10/12-02:02:13.263 10c07 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/12-02:02:13.263 10c07 Delete type=2 #127
+2020/10/12-02:02:13.263 10c07 Delete type=2 #124
+2020/10/12-02:02:13.264 10c07 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00u\x00s\x00e\x00r\x00s\x00.\x00v\x00i\x00e\x00w\x00e\x00r\x00I\x00d' @ 6968 : 1 .. (end); will stop at (end)

@@ -1,15 +1,3 @@
-2020/09/29-15:53:26.704 a4a6 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/29-15:53:26.704 a4a6 Recovering log #23
-2020/09/29-15:53:26.704 a4a6 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000023.log 
-2020/09/29-16:43:57.191 abe0 Level-0 table #28: started
-2020/09/29-16:43:57.203 abe0 Level-0 table #28: 1432906 bytes OK
-2020/09/29-16:43:57.207 abe0 Delete type=0 #23
-2020/09/29-16:43:57.208 abe0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/29-16:43:57.209 abe0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x00a\x000\x006\x009\x00f\x00c\x000\x001\x00a\x004\x00f\x00f\x00d\x003\x002\x005\x006\x006\x00d\x000\x007\x007\x006\x006\x00c\x00a\x001\x002\x001\x003\x00c\x007\x00_\x003\x00_\x002\x00:\x000\x000' @ 11701 : 0
-2020/09/29-16:43:57.209 abe0 Compacting 1@1 + 1@2 files
-2020/09/29-16:43:57.216 abe0 Generated table #29@1: 73 keys, 60688 bytes
-2020/09/29-16:43:57.216 abe0 Compacted 1@1 + 1@2 files => 60688 bytes
-2020/09/29-16:43:57.218 abe0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/09/29-16:43:57.219 abe0 Delete type=2 #25
-2020/09/29-16:43:57.219 abe0 Delete type=2 #28
-2020/09/29-16:43:57.220 abe0 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x00a\x000\x006\x009\x00f\x00c\x000\x001\x00a\x004\x00f\x00f\x00d\x003\x002\x005\x006\x006\x00d\x000\x007\x007\x006\x006\x00c\x00a\x001\x002\x001\x003\x00c\x007\x00_\x003\x00_\x002\x00:\x000\x000' @ 11701 : 0 .. (end); will stop at (end)
+2020/10/17-12:39:58.231 8eb9 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/17-12:39:58.232 8eb9 Recovering log #58
+2020/10/17-12:39:58.232 8eb9 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000058.log 

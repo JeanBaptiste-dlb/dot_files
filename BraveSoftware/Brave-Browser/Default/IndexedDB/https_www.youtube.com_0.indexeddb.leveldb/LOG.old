@@ -1,8 +1,8 @@
-2020/09/29-18:01:12.043 ab5 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/29-18:01:12.043 ab5 Recovering log #170
-2020/09/29-18:01:12.043 ab5 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000170.log 
-2020/09/29-18:06:26.809 a57 Level-0 table #174: started
-2020/09/29-18:06:26.809 a57 Level-0 table #174: 0 bytes OK
-2020/09/29-18:06:26.814 a57 Delete type=0 #170
-2020/09/29-18:06:26.814 a57 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/29-18:06:26.814 a57 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/10/21-11:55:11.735 aeb6 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/21-11:55:11.735 aeb6 Recovering log #306
+2020/10/21-11:55:11.735 aeb6 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000306.log 
+2020/10/21-17:07:16.322 a83e Level-0 table #310: started
+2020/10/21-17:07:16.323 a83e Level-0 table #310: 0 bytes OK
+2020/10/21-17:07:16.326 a83e Delete type=0 #306
+2020/10/21-17:07:16.326 a83e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/21-17:07:16.326 a83e Manual compaction at level-1 from (begin) .. (end); will stop at (end)

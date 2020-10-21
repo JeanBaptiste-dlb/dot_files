@@ -3,10 +3,8 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpCropOptions"
-        (aspect-denominator 978)
-        (aspect-numerator 930)
-        (tool "gimp-crop-tool"))
+    (tool-options "GimpMoveOptions"
+        (tool "gimp-move-tool"))
     (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)

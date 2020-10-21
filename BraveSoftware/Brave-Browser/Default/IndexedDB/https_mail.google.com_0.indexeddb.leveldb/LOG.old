@@ -1,3 +1,15 @@
-2020/09/27-19:57:40.848 9159 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/27-19:57:40.848 9159 Recovering log #75
-2020/09/27-19:57:40.848 9159 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000075.log 
+2020/10/21-00:27:41.027 44df Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/21-00:27:41.027 44df Recovering log #139
+2020/10/21-00:27:41.030 44df Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000139.log 
+2020/10/21-01:05:51.217 4c4f Level-0 table #144: started
+2020/10/21-01:05:51.238 4c4f Level-0 table #144: 917510 bytes OK
+2020/10/21-01:05:51.243 4c4f Delete type=0 #139
+2020/10/21-01:05:51.244 4c4f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/21-01:05:51.244 4c4f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 35536 : 1
+2020/10/21-01:05:51.244 4c4f Compacting 1@1 + 1@2 files
+2020/10/21-01:05:51.253 4c4f Generated table #145@1: 85 keys, 91055 bytes
+2020/10/21-01:05:51.253 4c4f Compacted 1@1 + 1@2 files => 91055 bytes
+2020/10/21-01:05:51.255 4c4f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/21-01:05:51.256 4c4f Delete type=2 #141
+2020/10/21-01:05:51.256 4c4f Delete type=2 #144
+2020/10/21-01:05:51.257 4c4f Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 35536 : 1 .. (end); will stop at (end)

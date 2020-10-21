@@ -1,17 +1,26 @@
-2020/09/27-16:04:31.449 5778 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reitmans.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/27-16:04:33.293 4312 Level-0 table #5: started
-2020/09/27-16:04:33.295 4312 Level-0 table #5: 574 bytes OK
-2020/09/27-16:04:33.298 4312 Delete type=0 #3
-2020/09/27-16:04:33.298 4312 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2020/09/27-16:04:35.307 4312 Level-0 table #7: started
-2020/09/27-16:04:35.308 4312 Level-0 table #7: 237 bytes OK
-2020/09/27-16:04:35.310 4312 Delete type=0 #4
-2020/09/27-16:04:35.310 4312 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/27-16:04:35.310 4312 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
-2020/09/27-16:04:35.310 4312 Compacting 1@1 + 1@2 files
-2020/09/27-16:04:35.312 4312 Generated table #8@1: 5 keys, 237 bytes
-2020/09/27-16:04:35.312 4312 Compacted 1@1 + 1@2 files => 237 bytes
-2020/09/27-16:04:35.314 4312 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/09/27-16:04:35.314 4312 Delete type=2 #7
-2020/09/27-16:04:35.314 4312 Delete type=2 #5
-2020/09/27-16:04:35.314 4312 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)
+2020/10/07-07:05:54.152 91ae7 Reusing MANIFEST /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reitmans.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/07-07:05:54.152 91ae7 Recovering log #6
+2020/10/07-07:05:54.153 91ae7 Reusing old log /home/cormak/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reitmans.com_0.indexeddb.leveldb/000006.log 
+2020/10/07-07:05:57.800 1792 Level-0 table #11: started
+2020/10/07-07:05:57.803 1792 Level-0 table #11: 540 bytes OK
+2020/10/07-07:05:57.805 1792 Delete type=0 #6
+2020/10/07-07:05:57.805 1792 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/10/07-07:05:59.803 1792 Level-0 table #13: started
+2020/10/07-07:05:59.805 1792 Level-0 table #13: 237 bytes OK
+2020/10/07-07:05:59.808 1792 Delete type=0 #10
+2020/10/07-07:05:59.808 1792 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 41 : 0
+2020/10/07-07:05:59.808 1792 Compacting 1@0 + 1@1 files
+2020/10/07-07:05:59.810 1792 Generated table #14@0: 3 keys, 215 bytes
+2020/10/07-07:05:59.810 1792 Compacted 1@0 + 1@1 files => 215 bytes
+2020/10/07-07:05:59.812 1792 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/10/07-07:05:59.812 1792 Delete type=2 #11
+2020/10/07-07:05:59.812 1792 Delete type=2 #13
+2020/10/07-07:05:59.813 1792 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 41 : 0 .. (end); will stop at (end)
+2020/10/07-07:05:59.813 1792 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 43 : 1
+2020/10/07-07:05:59.813 1792 Compacting 1@1 + 1@2 files
+2020/10/07-07:05:59.815 1792 Generated table #15@1: 5 keys, 237 bytes
+2020/10/07-07:05:59.815 1792 Compacted 1@1 + 1@2 files => 237 bytes
+2020/10/07-07:05:59.817 1792 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/07-07:05:59.817 1792 Delete type=2 #14
+2020/10/07-07:05:59.817 1792 Delete type=2 #8
+2020/10/07-07:05:59.817 1792 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 43 : 1 .. (end); will stop at (end)

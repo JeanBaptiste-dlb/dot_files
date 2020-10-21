@@ -1,4 +1,7 @@
 {
+  "workbench.editor.enablePreview": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
     "wal.tokenColorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
       "[Wal]": {
@@ -72,7 +75,7 @@
         "gitDecoration.untrackedResourceForeground": "#748A55"
       }
     },
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.colorTheme": "Better Solarized Dark",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 10,
     "terminal.external.linuxExec": "alacritty",
@@ -103,6 +106,7 @@
     "before": ["<space>"],
     "commands": ["whichkey.show"]
   }
-] 
+],
+"editor.largeFileOptimizations": false
      
 }

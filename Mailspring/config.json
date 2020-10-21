@@ -25,7 +25,8 @@
       "tutorial": {
         "seen": [
           "ThreadSearchBar",
-          "ActivityListButton"
+          "ActivityListButton",
+          "ModeToggle"
         ]
       },
       "theme": "ui-dark"
@@ -40,7 +41,7 @@
       "stripePlan": "Basic",
       "stripePlanEffective": "Basic",
       "stripeCustomerId": "cus_I28D1JGdDtG3bu",
-      "stripePeriodEnd": "2020-10-16T16:57:24.000Z",
+      "stripePeriodEnd": "2020-11-16T16:57:24.000Z",
       "featureUsage": {
         "snooze": {
           "quota": 15,

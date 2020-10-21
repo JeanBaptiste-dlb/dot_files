@@ -1,8 +1,23 @@
 const execa = require('execa');
 const superagent = require('superagent');
+const {
+  inputCaptureSetWatcher,
+  inputCaptureRegisterElement,
+} = require('./input_capture');
+const {
+  wrapInputEventRegister,
+  wrapInputEventUnregister,
+} = require('./input_event');
 
 module.exports = require('./discord_utils.node');
 module.exports.clearCandidateGamesCallback = module.exports.setCandidateGamesCallback;
+
+inputCaptureSetWatcher(module.exports.inputWatchAll);
+delete module.exports.inputWatchAll;
+module.exports.inputCaptureRegisterElement = inputCaptureRegisterElement;
+
+module.exports.inputEventRegister = wrapInputEventRegister(module.exports.inputEventRegister);
+module.exports.inputEventUnregister = wrapInputEventUnregister(module.exports.inputEventUnregister);
 
 function parseNvidiaSmiOutput(result) {
   if (!result || !result.stdout) {
@@ -47,11 +62,4 @@ module.exports.submitLiveCrashReport = async (channel, sentryMetadata) => {
     .attach('upload_file_minidump', path)
     .field('channel', channel)
     .field('sentry', JSON.stringify(sentryMetadata));
-};
-
-// [adill] safe to remove once the web code from
-// https://github.com/discord/discord/commit/ced0cd30085f9406e22ee43f77888591156ef58a is deployed everywhere
-// ~ETA 5/20/20
-module.exports.inputGetIdleMilliseconds = (callback) => {
-  callback(0);
 };
